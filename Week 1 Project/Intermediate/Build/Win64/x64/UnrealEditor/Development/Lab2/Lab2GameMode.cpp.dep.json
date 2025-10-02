@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\s7507515\\source\\lab2\\lab2gamemode.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\s7507515\\intermediate\\build\\win64\\x64\\lab2editor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\s7507515\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\lab2\\definitions.lab2.h",
+            "d:\\s7507515\\source\\lab2\\lab2gamemode.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\serverstatreplicator.generated.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemodebase.generated.h",
+            "d:\\s7507515\\intermediate\\build\\win64\\unrealeditor\\inc\\lab2\\uht\\lab2gamemode.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

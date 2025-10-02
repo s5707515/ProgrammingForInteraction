@@ -1,0 +1,21 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"D:/s7507515/Content/FirstPerson/Blueprints/BP_ShootableTarget.uasset",
+				"D:/s7507515/Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/2/AJ/WMCM3PLXI4O29HQ394POQ3.uasset",
+				"D:/s7507515/Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/8/RL/4AVEHYLM1A3V7LM9QBK23Q.uasset",
+				"D:/s7507515/Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/3/W6/5SDP1869JNVR22NLZ08H4R.uasset",
+				"D:/s7507515/Content/FirstPerson/Blueprints/BP_AmmoPickUp.uasset",
+				"D:/s7507515/Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/9/ZF/HQL9Z0S3FE49MO5BPT0TEE.uasset",
+				"D:/s7507515/Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/A/8J/WSABWLZCKPC4G996OPOHCL.uasset",
+				"C:/PFI/Week 2/Lab2_5.6_Start/Content/StarterContent/Architecture/Floor_400x400.uasset",
+				"D:/PA_Test/PFI/Week 2/Lab2/Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/6/85/IAUIZH1MNBX5K5S4C76STA.uasset",
+				"D:/PA_Test/PFI/Week 2/Lab2/Content/__ExternalActors__/Variant_Shooter/Lvl_Shooter/3/ZO/UGHL175SLLXY39PQUI16U7.uasset"
+			]
+		}
+	]
+}

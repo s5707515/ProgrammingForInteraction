@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\s7507515\\source\\lab2\\variant_shooter\\weapons\\shooterweaponholder.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\s7507515\\intermediate\\build\\win64\\x64\\lab2editor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\s7507515\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\lab2\\definitions.lab2.h",
+            "d:\\s7507515\\source\\lab2\\variant_shooter\\weapons\\shooterweaponholder.h",
+            "d:\\s7507515\\intermediate\\build\\win64\\unrealeditor\\inc\\lab2\\uht\\shooterweaponholder.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
