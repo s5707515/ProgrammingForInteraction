@@ -1,0 +1,14 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"D:/s7507515/ProgrammingForInteraction/Week 2 Project/Content/BP_CollapseFloor.uasset",
+				"D:/s7507515/ProgrammingForInteraction/Week 2 Project/Content/ModularLostRuinKit/Maps/ExampleMap_Lumen.umap",
+				"D:/s7507515/ProgrammingForInteraction/Week 2 Project/Content/BP_SpeedBoost.uasset"
+			]
+		}
+	]
+}

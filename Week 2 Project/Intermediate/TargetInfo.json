@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "PFI",
+			"Path": "..\\Source\\PFI.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "PFIEditor",
+			"Path": "..\\Source\\PFIEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
