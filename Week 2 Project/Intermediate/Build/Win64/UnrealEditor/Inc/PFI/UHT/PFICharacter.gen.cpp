@@ -21,6 +21,48 @@ PFI_API UClass* Z_Construct_UClass_APFICharacter_NoRegister();
 UPackage* Z_Construct_UPackage__Script_PFI();
 // ********** End Cross Module References **********************************************************
 
+// ********** Begin Class APFICharacter Function AdjustScore ***************************************
+struct Z_Construct_UFunction_APFICharacter_AdjustScore_Statics
+{
+	struct PFICharacter_eventAdjustScore_Parms
+	{
+		int32 scoreChange;
+	};
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "PFICharacter.h" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FIntPropertyParams NewProp_scoreChange;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FIntPropertyParams Z_Construct_UFunction_APFICharacter_AdjustScore_Statics::NewProp_scoreChange = { "scoreChange", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(PFICharacter_eventAdjustScore_Parms, scoreChange), METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_APFICharacter_AdjustScore_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_APFICharacter_AdjustScore_Statics::NewProp_scoreChange,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_APFICharacter_AdjustScore_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_APFICharacter_AdjustScore_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_APFICharacter, nullptr, "AdjustScore", Z_Construct_UFunction_APFICharacter_AdjustScore_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_APFICharacter_AdjustScore_Statics::PropPointers), sizeof(Z_Construct_UFunction_APFICharacter_AdjustScore_Statics::PFICharacter_eventAdjustScore_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_APFICharacter_AdjustScore_Statics::Function_MetaDataParams), Z_Construct_UFunction_APFICharacter_AdjustScore_Statics::Function_MetaDataParams)},  };
+static_assert(sizeof(Z_Construct_UFunction_APFICharacter_AdjustScore_Statics::PFICharacter_eventAdjustScore_Parms) < MAX_uint16);
+UFunction* Z_Construct_UFunction_APFICharacter_AdjustScore()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_APFICharacter_AdjustScore_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(APFICharacter::execAdjustScore)
+{
+	P_GET_PROPERTY(FIntProperty,Z_Param_scoreChange);
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	P_THIS->AdjustScore(Z_Param_scoreChange);
+	P_NATIVE_END;
+}
+// ********** End Class APFICharacter Function AdjustScore *****************************************
+
 // ********** Begin Class APFICharacter Function DoAim *********************************************
 struct Z_Construct_UFunction_APFICharacter_DoAim_Statics
 {
@@ -206,6 +248,7 @@ void APFICharacter::StaticRegisterNativesAPFICharacter()
 {
 	UClass* Class = APFICharacter::StaticClass();
 	static const FNameNativePtrPair Funcs[] = {
+		{ "AdjustScore", &APFICharacter::execAdjustScore },
 		{ "DoAim", &APFICharacter::execDoAim },
 		{ "DoJumpEnd", &APFICharacter::execDoJumpEnd },
 		{ "DoJumpStart", &APFICharacter::execDoJumpStart },
@@ -320,6 +363,14 @@ struct Z_Construct_UClass_APFICharacter_Statics
 		{ "ToolTip", "Mouse Look Input Action" },
 #endif
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_playerScore_MetaData[] = {
+		{ "Category", "Score" },
+		{ "ModuleRelativePath", "PFICharacter.h" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_playerHealth_MetaData[] = {
+		{ "Category", "Health" },
+		{ "ModuleRelativePath", "PFICharacter.h" },
+	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_FirstPersonMesh;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_FirstPersonCameraComponent;
@@ -327,9 +378,12 @@ struct Z_Construct_UClass_APFICharacter_Statics
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_MoveAction;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_LookAction;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_MouseLookAction;
+	static const UECodeGen_Private::FIntPropertyParams NewProp_playerScore;
+	static const UECodeGen_Private::FIntPropertyParams NewProp_playerHealth;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
+		{ &Z_Construct_UFunction_APFICharacter_AdjustScore, "AdjustScore" }, // 2444825162
 		{ &Z_Construct_UFunction_APFICharacter_DoAim, "DoAim" }, // 2598364121
 		{ &Z_Construct_UFunction_APFICharacter_DoJumpEnd, "DoJumpEnd" }, // 2412577728
 		{ &Z_Construct_UFunction_APFICharacter_DoJumpStart, "DoJumpStart" }, // 497658532
@@ -347,6 +401,8 @@ const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APFICharacter_
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APFICharacter_Statics::NewProp_MoveAction = { "MoveAction", nullptr, (EPropertyFlags)0x0020080000000001, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(APFICharacter, MoveAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_MoveAction_MetaData), NewProp_MoveAction_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APFICharacter_Statics::NewProp_LookAction = { "LookAction", nullptr, (EPropertyFlags)0x0020080000000001, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(APFICharacter, LookAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_LookAction_MetaData), NewProp_LookAction_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APFICharacter_Statics::NewProp_MouseLookAction = { "MouseLookAction", nullptr, (EPropertyFlags)0x0020080000000001, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(APFICharacter, MouseLookAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_MouseLookAction_MetaData), NewProp_MouseLookAction_MetaData) };
+const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_APFICharacter_Statics::NewProp_playerScore = { "playerScore", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(APFICharacter, playerScore), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_playerScore_MetaData), NewProp_playerScore_MetaData) };
+const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_APFICharacter_Statics::NewProp_playerHealth = { "playerHealth", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(APFICharacter, playerHealth), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_playerHealth_MetaData), NewProp_playerHealth_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_APFICharacter_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APFICharacter_Statics::NewProp_FirstPersonMesh,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APFICharacter_Statics::NewProp_FirstPersonCameraComponent,
@@ -354,6 +410,8 @@ const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_APFIChara
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APFICharacter_Statics::NewProp_MoveAction,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APFICharacter_Statics::NewProp_LookAction,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APFICharacter_Statics::NewProp_MouseLookAction,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APFICharacter_Statics::NewProp_playerScore,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APFICharacter_Statics::NewProp_playerHealth,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_APFICharacter_Statics::PropPointers) < 2048);
 UObject* (*const Z_Construct_UClass_APFICharacter_Statics::DependentSingletons[])() = {
@@ -392,10 +450,10 @@ APFICharacter::~APFICharacter() {}
 struct Z_CompiledInDeferFile_FID_Week_2_Project_Source_PFI_PFICharacter_h__Script_PFI_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_APFICharacter, APFICharacter::StaticClass, TEXT("APFICharacter"), &Z_Registration_Info_UClass_APFICharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(APFICharacter), 1238980804U) },
+		{ Z_Construct_UClass_APFICharacter, APFICharacter::StaticClass, TEXT("APFICharacter"), &Z_Registration_Info_UClass_APFICharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(APFICharacter), 492028685U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Week_2_Project_Source_PFI_PFICharacter_h__Script_PFI_653924181(TEXT("/Script/PFI"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Week_2_Project_Source_PFI_PFICharacter_h__Script_PFI_4150511259(TEXT("/Script/PFI"),
 	Z_CompiledInDeferFile_FID_Week_2_Project_Source_PFI_PFICharacter_h__Script_PFI_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Week_2_Project_Source_PFI_PFICharacter_h__Script_PFI_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

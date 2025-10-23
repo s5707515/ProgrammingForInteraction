@@ -33,10 +33,22 @@
     <Filter Include="Source\PFI">
       <UniqueIdentifier>{D6B9A1CC-DC7A-340A-A339-361CE92808A6}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\PFI\BadPickUp.cpp">
+      <Filter>Source\PFI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PFI\BadPickUp.h">
+      <Filter>Source\PFI</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\PFI\CollapseFloor.cpp">
       <Filter>Source\PFI</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\PFI\CollapseFloor.h">
+      <Filter>Source\PFI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PFI\GameTimer.cpp">
+      <Filter>Source\PFI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PFI\GameTimer.h">
       <Filter>Source\PFI</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\PFI\JumpBoost.cpp">
@@ -88,6 +100,12 @@
       <Filter>Source\PFI</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\PFI\PickupBase.h">
+      <Filter>Source\PFI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PFI\ScorePickUp.cpp">
+      <Filter>Source\PFI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PFI\ScorePickUp.h">
       <Filter>Source\PFI</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\PFI\SpeedBoost.cpp">

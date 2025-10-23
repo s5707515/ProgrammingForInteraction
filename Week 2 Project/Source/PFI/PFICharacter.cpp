@@ -66,6 +66,26 @@ void APFICharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompon
 	}
 }
 
+void APFICharacter::AdjustScore(int32 scoreChange)
+{
+	playerScore += scoreChange;
+	UE_LOG(LogTemp, Warning, TEXT("Player Score: %d"), playerScore);
+}
+
+void APFICharacter::AdjustHealth(int32 healthChange)
+{
+	playerHealth += healthChange;
+	UE_LOG(LogTemp, Warning, TEXT("Player Health: %d"), playerHealth);
+
+	if (playerHealth <= 0)
+	{
+		//End Game
+
+
+	}
+}
+
+
 
 void APFICharacter::MoveInput(const FInputActionValue& Value)
 {

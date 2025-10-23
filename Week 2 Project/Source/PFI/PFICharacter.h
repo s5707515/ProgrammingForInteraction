@@ -90,5 +90,16 @@ public:
 	/** Returns first person camera component **/
 	UCameraComponent* GetFirstPersonCameraComponent() const { return FirstPersonCameraComponent; }
 
+	UPROPERTY(EditAnywhere, BluePrintReadWrite, Category = "Score")
+	int32 playerScore;
+
+	UFUNCTION(BlueprintCallable)
+	void AdjustScore(int32 scoreChange);
+
+
+	UPROPERTY(EditAnywhere, BluePrintReadWrite, Category = "Health")
+	int32 playerHealth;
+
+	void AdjustHealth(int32 healthChange);
 };
 

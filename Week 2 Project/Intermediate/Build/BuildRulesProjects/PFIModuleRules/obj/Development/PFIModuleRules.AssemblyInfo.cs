@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PFIModuleRules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Development")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9a193d1cc689b33086da96def4b7aba10ccfb89d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+583970b2adcc3ce59e6a4d4ba1734ccbdb3ae433")]
 [assembly: System.Reflection.AssemblyProductAttribute("PFIModuleRules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PFIModuleRules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

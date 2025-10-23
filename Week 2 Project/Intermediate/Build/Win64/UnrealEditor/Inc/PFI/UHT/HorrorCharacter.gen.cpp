@@ -413,10 +413,10 @@ AHorrorCharacter::~AHorrorCharacter() {}
 struct Z_CompiledInDeferFile_FID_Week_2_Project_Source_PFI_Variant_Horror_HorrorCharacter_h__Script_PFI_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AHorrorCharacter, AHorrorCharacter::StaticClass, TEXT("AHorrorCharacter"), &Z_Registration_Info_UClass_AHorrorCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AHorrorCharacter), 997971791U) },
+		{ Z_Construct_UClass_AHorrorCharacter, AHorrorCharacter::StaticClass, TEXT("AHorrorCharacter"), &Z_Registration_Info_UClass_AHorrorCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AHorrorCharacter), 273269159U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Week_2_Project_Source_PFI_Variant_Horror_HorrorCharacter_h__Script_PFI_115425566(TEXT("/Script/PFI"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Week_2_Project_Source_PFI_Variant_Horror_HorrorCharacter_h__Script_PFI_3155373325(TEXT("/Script/PFI"),
 	Z_CompiledInDeferFile_FID_Week_2_Project_Source_PFI_Variant_Horror_HorrorCharacter_h__Script_PFI_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Week_2_Project_Source_PFI_Variant_Horror_HorrorCharacter_h__Script_PFI_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

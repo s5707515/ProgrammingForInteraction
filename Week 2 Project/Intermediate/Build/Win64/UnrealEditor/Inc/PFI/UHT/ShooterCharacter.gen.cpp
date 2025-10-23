@@ -492,10 +492,10 @@ AShooterCharacter::~AShooterCharacter() {}
 struct Z_CompiledInDeferFile_FID_Week_2_Project_Source_PFI_Variant_Shooter_ShooterCharacter_h__Script_PFI_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AShooterCharacter, AShooterCharacter::StaticClass, TEXT("AShooterCharacter"), &Z_Registration_Info_UClass_AShooterCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AShooterCharacter), 3192272852U) },
+		{ Z_Construct_UClass_AShooterCharacter, AShooterCharacter::StaticClass, TEXT("AShooterCharacter"), &Z_Registration_Info_UClass_AShooterCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AShooterCharacter), 423853901U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Week_2_Project_Source_PFI_Variant_Shooter_ShooterCharacter_h__Script_PFI_4028042778(TEXT("/Script/PFI"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Week_2_Project_Source_PFI_Variant_Shooter_ShooterCharacter_h__Script_PFI_2614525985(TEXT("/Script/PFI"),
 	Z_CompiledInDeferFile_FID_Week_2_Project_Source_PFI_Variant_Shooter_ShooterCharacter_h__Script_PFI_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Week_2_Project_Source_PFI_Variant_Shooter_ShooterCharacter_h__Script_PFI_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

@@ -2,8 +2,10 @@
 	"RemapUnityFiles": 
 	{
 		"Module.PFI.cpp.obj": [
+			"BadPickUp.gen.cpp.obj",
 			"CollapseFloor.gen.cpp.obj",
 			"EnvQueryContext_Target.gen.cpp.obj",
+			"GameTimer.gen.cpp.obj",
 			"HorrorCharacter.gen.cpp.obj",
 			"HorrorGameMode.gen.cpp.obj",
 			"HorrorPlayerController.gen.cpp.obj",
@@ -16,6 +18,7 @@
 			"PFIGameMode.gen.cpp.obj",
 			"PFIPlayerController.gen.cpp.obj",
 			"PickupBase.gen.cpp.obj",
+			"ScorePickUp.gen.cpp.obj",
 			"ShooterAIController.gen.cpp.obj",
 			"ShooterBulletCounterUI.gen.cpp.obj",
 			"ShooterCharacter.gen.cpp.obj",
@@ -30,7 +33,9 @@
 			"ShooterWeaponHolder.gen.cpp.obj",
 			"SpeedBoost.gen.cpp.obj",
 			"PerModuleInline.gen.cpp.obj",
+			"BadPickUp.cpp.obj",
 			"CollapseFloor.cpp.obj",
+			"GameTimer.cpp.obj",
 			"JumpBoost.cpp.obj",
 			"MyPickupBase.cpp.obj",
 			"PFI.cpp.obj",
@@ -39,6 +44,7 @@
 			"PFIGameMode.cpp.obj",
 			"PFIPlayerController.cpp.obj",
 			"PickupBase.cpp.obj",
+			"ScorePickUp.cpp.obj",
 			"SpeedBoost.cpp.obj",
 			"HorrorCharacter.cpp.obj",
 			"HorrorGameMode.cpp.obj",
