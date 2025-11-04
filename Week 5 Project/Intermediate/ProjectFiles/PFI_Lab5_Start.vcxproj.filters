@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\PFI_Lab5_Start.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\PFI_Lab5_Start.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\PFI_Lab5_StartEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\PFI_Lab5_Start">
+      <UniqueIdentifier>{A7D8B58F-7D76-3015-AAF6-E4688069D5CF}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\PFI_Lab5_Start\PFI_Lab5_Start.Build.cs">
+      <Filter>Source\PFI_Lab5_Start</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\PFI_Lab5_Start\PFI_Lab5_Start.cpp">
+      <Filter>Source\PFI_Lab5_Start</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PFI_Lab5_Start\PFI_Lab5_Start.h">
+      <Filter>Source\PFI_Lab5_Start</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PFI_Lab5_Start\PFI_Lab5_StartCharacter.cpp">
+      <Filter>Source\PFI_Lab5_Start</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PFI_Lab5_Start\PFI_Lab5_StartCharacter.h">
+      <Filter>Source\PFI_Lab5_Start</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PFI_Lab5_Start\PFI_Lab5_StartGameMode.cpp">
+      <Filter>Source\PFI_Lab5_Start</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PFI_Lab5_Start\PFI_Lab5_StartGameMode.h">
+      <Filter>Source\PFI_Lab5_Start</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PFI_Lab5_Start\PFI_Lab5_StartPlayerController.cpp">
+      <Filter>Source\PFI_Lab5_Start</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PFI_Lab5_Start\PFI_Lab5_StartPlayerController.h">
+      <Filter>Source\PFI_Lab5_Start</Filter>
+    </ClInclude>
+    <Filter Include="Source\PFI_Lab5_Start\Variant_Strategy">
+      <UniqueIdentifier>{C2DA34B7-4A00-305E-BD0F-4731AD6DFBD4}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\PFI_Lab5_Start\Variant_Strategy\StrategyGameMode.cpp">
+      <Filter>Source\PFI_Lab5_Start\Variant_Strategy</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PFI_Lab5_Start\Variant_Strategy\StrategyGameMode.h">
+      <Filter>Source\PFI_Lab5_Start\Variant_Strategy</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PFI_Lab5_Start\Variant_Strategy\StrategyPawn.cpp">
+      <Filter>Source\PFI_Lab5_Start\Variant_Strategy</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PFI_Lab5_Start\Variant_Strategy\StrategyPawn.h">
+      <Filter>Source\PFI_Lab5_Start\Variant_Strategy</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PFI_Lab5_Start\Variant_Strategy\StrategyPlayerController.cpp">
+      <Filter>Source\PFI_Lab5_Start\Variant_Strategy</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PFI_Lab5_Start\Variant_Strategy\StrategyPlayerController.h">
+      <Filter>Source\PFI_Lab5_Start\Variant_Strategy</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PFI_Lab5_Start\Variant_Strategy\StrategyUnit.cpp">
+      <Filter>Source\PFI_Lab5_Start\Variant_Strategy</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PFI_Lab5_Start\Variant_Strategy\StrategyUnit.h">
+      <Filter>Source\PFI_Lab5_Start\Variant_Strategy</Filter>
+    </ClInclude>
+    <Filter Include="Source\PFI_Lab5_Start\Variant_Strategy\UI">
+      <UniqueIdentifier>{46C87E8B-90C6-3E77-9D4E-1306DB87336D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\PFI_Lab5_Start\Variant_Strategy\UI\StrategyHUD.cpp">
+      <Filter>Source\PFI_Lab5_Start\Variant_Strategy\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PFI_Lab5_Start\Variant_Strategy\UI\StrategyHUD.h">
+      <Filter>Source\PFI_Lab5_Start\Variant_Strategy\UI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PFI_Lab5_Start\Variant_Strategy\UI\StrategyUI.cpp">
+      <Filter>Source\PFI_Lab5_Start\Variant_Strategy\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PFI_Lab5_Start\Variant_Strategy\UI\StrategyUI.h">
+      <Filter>Source\PFI_Lab5_Start\Variant_Strategy\UI</Filter>
+    </ClInclude>
+    <Filter Include="Source\PFI_Lab5_Start\Variant_TwinStick">
+      <UniqueIdentifier>{E6C2CE90-EC39-3A26-AF08-5634C26F6EF1}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\PFI_Lab5_Start\Variant_TwinStick\TwinStickCharacter.cpp">
+      <Filter>Source\PFI_Lab5_Start\Variant_TwinStick</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PFI_Lab5_Start\Variant_TwinStick\TwinStickCharacter.h">
+      <Filter>Source\PFI_Lab5_Start\Variant_TwinStick</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PFI_Lab5_Start\Variant_TwinStick\TwinStickGameMode.cpp">
+      <Filter>Source\PFI_Lab5_Start\Variant_TwinStick</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PFI_Lab5_Start\Variant_TwinStick\TwinStickGameMode.h">
+      <Filter>Source\PFI_Lab5_Start\Variant_TwinStick</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PFI_Lab5_Start\Variant_TwinStick\TwinStickPlayerController.cpp">
+      <Filter>Source\PFI_Lab5_Start\Variant_TwinStick</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PFI_Lab5_Start\Variant_TwinStick\TwinStickPlayerController.h">
+      <Filter>Source\PFI_Lab5_Start\Variant_TwinStick</Filter>
+    </ClInclude>
+    <Filter Include="Source\PFI_Lab5_Start\Variant_TwinStick\AI">
+      <UniqueIdentifier>{B349AC16-814D-3488-A332-7CCBC0822882}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\PFI_Lab5_Start\Variant_TwinStick\AI\TwinStickAIController.cpp">
+      <Filter>Source\PFI_Lab5_Start\Variant_TwinStick\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PFI_Lab5_Start\Variant_TwinStick\AI\TwinStickAIController.h">
+      <Filter>Source\PFI_Lab5_Start\Variant_TwinStick\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PFI_Lab5_Start\Variant_TwinStick\AI\TwinStickNPC.cpp">
+      <Filter>Source\PFI_Lab5_Start\Variant_TwinStick\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PFI_Lab5_Start\Variant_TwinStick\AI\TwinStickNPC.h">
+      <Filter>Source\PFI_Lab5_Start\Variant_TwinStick\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PFI_Lab5_Start\Variant_TwinStick\AI\TwinStickNPCDestruction.cpp">
+      <Filter>Source\PFI_Lab5_Start\Variant_TwinStick\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PFI_Lab5_Start\Variant_TwinStick\AI\TwinStickNPCDestruction.h">
+      <Filter>Source\PFI_Lab5_Start\Variant_TwinStick\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PFI_Lab5_Start\Variant_TwinStick\AI\TwinStickSpawner.cpp">
+      <Filter>Source\PFI_Lab5_Start\Variant_TwinStick\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PFI_Lab5_Start\Variant_TwinStick\AI\TwinStickSpawner.h">
+      <Filter>Source\PFI_Lab5_Start\Variant_TwinStick\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PFI_Lab5_Start\Variant_TwinStick\AI\TwinStickStateTreeUtility.cpp">
+      <Filter>Source\PFI_Lab5_Start\Variant_TwinStick\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PFI_Lab5_Start\Variant_TwinStick\AI\TwinStickStateTreeUtility.h">
+      <Filter>Source\PFI_Lab5_Start\Variant_TwinStick\AI</Filter>
+    </ClInclude>
+    <Filter Include="Source\PFI_Lab5_Start\Variant_TwinStick\Gameplay">
+      <UniqueIdentifier>{F62D56A5-33F3-3090-A11C-A42C30FC31DF}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\PFI_Lab5_Start\Variant_TwinStick\Gameplay\TwinStickAoEAttack.cpp">
+      <Filter>Source\PFI_Lab5_Start\Variant_TwinStick\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PFI_Lab5_Start\Variant_TwinStick\Gameplay\TwinStickAoEAttack.h">
+      <Filter>Source\PFI_Lab5_Start\Variant_TwinStick\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PFI_Lab5_Start\Variant_TwinStick\Gameplay\TwinStickPickup.cpp">
+      <Filter>Source\PFI_Lab5_Start\Variant_TwinStick\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PFI_Lab5_Start\Variant_TwinStick\Gameplay\TwinStickPickup.h">
+      <Filter>Source\PFI_Lab5_Start\Variant_TwinStick\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PFI_Lab5_Start\Variant_TwinStick\Gameplay\TwinStickProjectile.cpp">
+      <Filter>Source\PFI_Lab5_Start\Variant_TwinStick\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PFI_Lab5_Start\Variant_TwinStick\Gameplay\TwinStickProjectile.h">
+      <Filter>Source\PFI_Lab5_Start\Variant_TwinStick\Gameplay</Filter>
+    </ClInclude>
+    <Filter Include="Source\PFI_Lab5_Start\Variant_TwinStick\UI">
+      <UniqueIdentifier>{FA10DA88-B1BC-398A-BE27-3D4FF0A56FEE}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\PFI_Lab5_Start\Variant_TwinStick\UI\TwinStickUI.cpp">
+      <Filter>Source\PFI_Lab5_Start\Variant_TwinStick\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PFI_Lab5_Start\Variant_TwinStick\UI\TwinStickUI.h">
+      <Filter>Source\PFI_Lab5_Start\Variant_TwinStick\UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

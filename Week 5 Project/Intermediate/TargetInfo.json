@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "PFI_Lab5_Start",
+			"Path": "..\\Source\\PFI_Lab5_Start.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "PFI_Lab5_StartEditor",
+			"Path": "..\\Source\\PFI_Lab5_StartEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

@@ -1,0 +1,34 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-PFI_Lab5_Start.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:/OneDriveBackup/OneDrive - Bournemouth University/Academic Job/AY25_26/PFI/Week 5/PFI_Lab5_Start/Intermediate/Build/Win64/x64/PFI_Lab5_StartEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h.obj"
+"D:/OneDriveBackup/OneDrive - Bournemouth University/Academic Job/AY25_26/PFI/Week 5/PFI_Lab5_Start/Intermediate/Build/Win64/x64/UnrealEditor/Development/PFI_Lab5_Start/Module.PFI_Lab5_Start.cpp.obj"
+"D:/OneDriveBackup/OneDrive - Bournemouth University/Academic Job/AY25_26/PFI/Week 5/PFI_Lab5_Start/Intermediate/Build/Win64/x64/UnrealEditor/Development/PFI_Lab5_Start/PFI_Lab5_Start.cpp.obj"
+"D:/OneDriveBackup/OneDrive - Bournemouth University/Academic Job/AY25_26/PFI/Week 5/PFI_Lab5_Start/Intermediate/Build/Win64/x64/UnrealEditor/Development/PFI_Lab5_Start/PFI_Lab5_StartCharacter.cpp.obj"
+"D:/OneDriveBackup/OneDrive - Bournemouth University/Academic Job/AY25_26/PFI/Week 5/PFI_Lab5_Start/Intermediate/Build/Win64/x64/UnrealEditor/Development/PFI_Lab5_Start/PFI_Lab5_StartGameMode.cpp.obj"
+"D:/OneDriveBackup/OneDrive - Bournemouth University/Academic Job/AY25_26/PFI/Week 5/PFI_Lab5_Start/Intermediate/Build/Win64/x64/UnrealEditor/Development/PFI_Lab5_Start/PFI_Lab5_StartPlayerController.cpp.obj"
+"D:/OneDriveBackup/OneDrive - Bournemouth University/Academic Job/AY25_26/PFI/Week 5/PFI_Lab5_Start/Intermediate/Build/Win64/x64/UnrealEditor/Development/PFI_Lab5_Start/StrategyGameMode.cpp.obj"
+"D:/OneDriveBackup/OneDrive - Bournemouth University/Academic Job/AY25_26/PFI/Week 5/PFI_Lab5_Start/Intermediate/Build/Win64/x64/UnrealEditor/Development/PFI_Lab5_Start/StrategyPawn.cpp.obj"
+"D:/OneDriveBackup/OneDrive - Bournemouth University/Academic Job/AY25_26/PFI/Week 5/PFI_Lab5_Start/Intermediate/Build/Win64/x64/UnrealEditor/Development/PFI_Lab5_Start/StrategyPlayerController.cpp.obj"
+"D:/OneDriveBackup/OneDrive - Bournemouth University/Academic Job/AY25_26/PFI/Week 5/PFI_Lab5_Start/Intermediate/Build/Win64/x64/UnrealEditor/Development/PFI_Lab5_Start/StrategyUnit.cpp.obj"
+"D:/OneDriveBackup/OneDrive - Bournemouth University/Academic Job/AY25_26/PFI/Week 5/PFI_Lab5_Start/Intermediate/Build/Win64/x64/UnrealEditor/Development/PFI_Lab5_Start/StrategyHUD.cpp.obj"
+"D:/OneDriveBackup/OneDrive - Bournemouth University/Academic Job/AY25_26/PFI/Week 5/PFI_Lab5_Start/Intermediate/Build/Win64/x64/UnrealEditor/Development/PFI_Lab5_Start/StrategyUI.cpp.obj"
+"D:/OneDriveBackup/OneDrive - Bournemouth University/Academic Job/AY25_26/PFI/Week 5/PFI_Lab5_Start/Intermediate/Build/Win64/x64/UnrealEditor/Development/PFI_Lab5_Start/TwinStickCharacter.cpp.obj"
+"D:/OneDriveBackup/OneDrive - Bournemouth University/Academic Job/AY25_26/PFI/Week 5/PFI_Lab5_Start/Intermediate/Build/Win64/x64/UnrealEditor/Development/PFI_Lab5_Start/TwinStickGameMode.cpp.obj"
+"D:/OneDriveBackup/OneDrive - Bournemouth University/Academic Job/AY25_26/PFI/Week 5/PFI_Lab5_Start/Intermediate/Build/Win64/x64/UnrealEditor/Development/PFI_Lab5_Start/TwinStickPlayerController.cpp.obj"
+"D:/OneDriveBackup/OneDrive - Bournemouth University/Academic Job/AY25_26/PFI/Week 5/PFI_Lab5_Start/Intermediate/Build/Win64/x64/UnrealEditor/Development/PFI_Lab5_Start/TwinStickAIController.cpp.obj"
+"D:/OneDriveBackup/OneDrive - Bournemouth University/Academic Job/AY25_26/PFI/Week 5/PFI_Lab5_Start/Intermediate/Build/Win64/x64/UnrealEditor/Development/PFI_Lab5_Start/TwinStickNPC.cpp.obj"
+"D:/OneDriveBackup/OneDrive - Bournemouth University/Academic Job/AY25_26/PFI/Week 5/PFI_Lab5_Start/Intermediate/Build/Win64/x64/UnrealEditor/Development/PFI_Lab5_Start/TwinStickNPCDestruction.cpp.obj"
+"D:/OneDriveBackup/OneDrive - Bournemouth University/Academic Job/AY25_26/PFI/Week 5/PFI_Lab5_Start/Intermediate/Build/Win64/x64/UnrealEditor/Development/PFI_Lab5_Start/TwinStickSpawner.cpp.obj"
+"D:/OneDriveBackup/OneDrive - Bournemouth University/Academic Job/AY25_26/PFI/Week 5/PFI_Lab5_Start/Intermediate/Build/Win64/x64/UnrealEditor/Development/PFI_Lab5_Start/TwinStickStateTreeUtility.cpp.obj"
+"D:/OneDriveBackup/OneDrive - Bournemouth University/Academic Job/AY25_26/PFI/Week 5/PFI_Lab5_Start/Intermediate/Build/Win64/x64/UnrealEditor/Development/PFI_Lab5_Start/TwinStickAoEAttack.cpp.obj"
+"D:/OneDriveBackup/OneDrive - Bournemouth University/Academic Job/AY25_26/PFI/Week 5/PFI_Lab5_Start/Intermediate/Build/Win64/x64/UnrealEditor/Development/PFI_Lab5_Start/TwinStickPickup.cpp.obj"
+"D:/OneDriveBackup/OneDrive - Bournemouth University/Academic Job/AY25_26/PFI/Week 5/PFI_Lab5_Start/Intermediate/Build/Win64/x64/UnrealEditor/Development/PFI_Lab5_Start/TwinStickProjectile.cpp.obj"
+"D:/OneDriveBackup/OneDrive - Bournemouth University/Academic Job/AY25_26/PFI/Week 5/PFI_Lab5_Start/Intermediate/Build/Win64/x64/UnrealEditor/Development/PFI_Lab5_Start/TwinStickUI.cpp.obj"
+"D:/OneDriveBackup/OneDrive - Bournemouth University/Academic Job/AY25_26/PFI/Week 5/PFI_Lab5_Start/Intermediate/Build/Win64/x64/UnrealEditor/Development/PFI_Lab5_Start/Default.rc2.res"
+/OUT:"D:/OneDriveBackup/OneDrive - Bournemouth University/Academic Job/AY25_26/PFI/Week 5/PFI_Lab5_Start/Intermediate/Build/Win64/x64/UnrealEditor/Development/PFI_Lab5_Start/UnrealEditor-PFI_Lab5_Start.lib"

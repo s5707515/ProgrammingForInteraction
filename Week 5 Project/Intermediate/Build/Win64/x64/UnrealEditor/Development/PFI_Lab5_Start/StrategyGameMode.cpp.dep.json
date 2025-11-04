@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\onedrivebackup\\onedrive - bournemouth university\\academic job\\ay25_26\\pfi\\week 5\\pfi_lab5_start\\source\\pfi_lab5_start\\variant_strategy\\strategygamemode.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\onedrivebackup\\onedrive - bournemouth university\\academic job\\ay25_26\\pfi\\week 5\\pfi_lab5_start\\intermediate\\build\\win64\\x64\\pfi_lab5_starteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\onedrivebackup\\onedrive - bournemouth university\\academic job\\ay25_26\\pfi\\week 5\\pfi_lab5_start\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\pfi_lab5_start\\definitions.pfi_lab5_start.h",
+            "d:\\onedrivebackup\\onedrive - bournemouth university\\academic job\\ay25_26\\pfi\\week 5\\pfi_lab5_start\\source\\pfi_lab5_start\\variant_strategy\\strategygamemode.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\serverstatreplicator.generated.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemodebase.generated.h",
+            "d:\\onedrivebackup\\onedrive - bournemouth university\\academic job\\ay25_26\\pfi\\week 5\\pfi_lab5_start\\intermediate\\build\\win64\\unrealeditor\\inc\\pfi_lab5_start\\uht\\strategygamemode.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
