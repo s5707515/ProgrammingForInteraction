@@ -1,0 +1,25 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-UE5_Week6.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Bournemouth University\Year 2\Programming For Interaction\ProgrammingForInteraction\Week 6 Project\UE5_Week6\Intermediate\Build\Win64\x64\UE5_Week6Editor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
+"D:\Bournemouth University\Year 2\Programming For Interaction\ProgrammingForInteraction\Week 6 Project\UE5_Week6\Intermediate\Build\Win64\x64\UnrealEditor\Development\UE5_Week6\TP_PickUpComponent.gen.cpp.obj"
+"D:\Bournemouth University\Year 2\Programming For Interaction\ProgrammingForInteraction\Week 6 Project\UE5_Week6\Intermediate\Build\Win64\x64\UnrealEditor\Development\UE5_Week6\TP_WeaponComponent.gen.cpp.obj"
+"D:\Bournemouth University\Year 2\Programming For Interaction\ProgrammingForInteraction\Week 6 Project\UE5_Week6\Intermediate\Build\Win64\x64\UnrealEditor\Development\UE5_Week6\UE5_Week6.init.gen.cpp.obj"
+"D:\Bournemouth University\Year 2\Programming For Interaction\ProgrammingForInteraction\Week 6 Project\UE5_Week6\Intermediate\Build\Win64\x64\UnrealEditor\Development\UE5_Week6\UE5_Week6Character.gen.cpp.obj"
+"D:\Bournemouth University\Year 2\Programming For Interaction\ProgrammingForInteraction\Week 6 Project\UE5_Week6\Intermediate\Build\Win64\x64\UnrealEditor\Development\UE5_Week6\UE5_Week6GameMode.gen.cpp.obj"
+"D:\Bournemouth University\Year 2\Programming For Interaction\ProgrammingForInteraction\Week 6 Project\UE5_Week6\Intermediate\Build\Win64\x64\UnrealEditor\Development\UE5_Week6\UE5_Week6PlayerController.gen.cpp.obj"
+"D:\Bournemouth University\Year 2\Programming For Interaction\ProgrammingForInteraction\Week 6 Project\UE5_Week6\Intermediate\Build\Win64\x64\UnrealEditor\Development\UE5_Week6\UE5_Week6Projectile.gen.cpp.obj"
+"D:\Bournemouth University\Year 2\Programming For Interaction\ProgrammingForInteraction\Week 6 Project\UE5_Week6\Intermediate\Build\Win64\x64\UnrealEditor\Development\UE5_Week6\TP_PickUpComponent.cpp.obj"
+"D:\Bournemouth University\Year 2\Programming For Interaction\ProgrammingForInteraction\Week 6 Project\UE5_Week6\Intermediate\Build\Win64\x64\UnrealEditor\Development\UE5_Week6\TP_WeaponComponent.cpp.obj"
+"D:\Bournemouth University\Year 2\Programming For Interaction\ProgrammingForInteraction\Week 6 Project\UE5_Week6\Intermediate\Build\Win64\x64\UnrealEditor\Development\UE5_Week6\UE5_Week6.cpp.obj"
+"D:\Bournemouth University\Year 2\Programming For Interaction\ProgrammingForInteraction\Week 6 Project\UE5_Week6\Intermediate\Build\Win64\x64\UnrealEditor\Development\UE5_Week6\UE5_Week6Character.cpp.obj"
+"D:\Bournemouth University\Year 2\Programming For Interaction\ProgrammingForInteraction\Week 6 Project\UE5_Week6\Intermediate\Build\Win64\x64\UnrealEditor\Development\UE5_Week6\UE5_Week6GameMode.cpp.obj"
+"D:\Bournemouth University\Year 2\Programming For Interaction\ProgrammingForInteraction\Week 6 Project\UE5_Week6\Intermediate\Build\Win64\x64\UnrealEditor\Development\UE5_Week6\UE5_Week6PlayerController.cpp.obj"
+"D:\Bournemouth University\Year 2\Programming For Interaction\ProgrammingForInteraction\Week 6 Project\UE5_Week6\Intermediate\Build\Win64\x64\UnrealEditor\Development\UE5_Week6\UE5_Week6Projectile.cpp.obj"
+"D:\Bournemouth University\Year 2\Programming For Interaction\ProgrammingForInteraction\Week 6 Project\UE5_Week6\Intermediate\Build\Win64\x64\UnrealEditor\Development\UE5_Week6\Default.rc2.res"
+/OUT:"D:\Bournemouth University\Year 2\Programming For Interaction\ProgrammingForInteraction\Week 6 Project\UE5_Week6\Intermediate\Build\Win64\x64\UnrealEditor\Development\UE5_Week6\UnrealEditor-UE5_Week6.lib"

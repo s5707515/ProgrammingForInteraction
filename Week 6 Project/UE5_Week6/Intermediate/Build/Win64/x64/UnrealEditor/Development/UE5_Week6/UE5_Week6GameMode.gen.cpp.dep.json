@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\bournemouth university\\year 2\\programming for interaction\\programmingforinteraction\\week 6 project\\ue5_week6\\intermediate\\build\\win64\\unrealeditor\\inc\\ue5_week6\\uht\\ue5_week6gamemode.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\bournemouth university\\year 2\\programming for interaction\\programmingforinteraction\\week 6 project\\ue5_week6\\intermediate\\build\\win64\\x64\\ue5_week6editor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\bournemouth university\\year 2\\programming for interaction\\programmingforinteraction\\week 6 project\\ue5_week6\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\ue5_week6\\definitions.ue5_week6.h",
+            "d:\\bournemouth university\\year 2\\programming for interaction\\programmingforinteraction\\week 6 project\\ue5_week6\\source\\ue5_week6\\ue5_week6gamemode.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\serverstatreplicator.generated.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemodebase.generated.h",
+            "d:\\bournemouth university\\year 2\\programming for interaction\\programmingforinteraction\\week 6 project\\ue5_week6\\intermediate\\build\\win64\\unrealeditor\\inc\\ue5_week6\\uht\\ue5_week6gamemode.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

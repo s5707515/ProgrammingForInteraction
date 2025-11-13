@@ -1,0 +1,16 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"D:/Bournemouth University/Year 2/Programming For Interaction/ProgrammingForInteraction/Week 6 Project/UE5_Week6/Content/StarterContent/Architecture/Floor_400x400.uasset",
+				"D:/Bournemouth University/Year 2/Programming For Interaction/ProgrammingForInteraction/Week 6 Project/UE5_Week6/Content/Blueprints/BP_Telemetry.uasset",
+				"D:/Bournemouth University/Year 2/Programming For Interaction/ProgrammingForInteraction/Week 6 Project/UE5_Week6/Content/Blueprints/BP_Telemetry_Player_Loc.uasset",
+				"D:/Bournemouth University/Year 2/Programming For Interaction/ProgrammingForInteraction/Week 6 Project/UE5_Week6/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/TK/PLL3D0DRTB1E9B0QIDOXV9.uasset",
+				"D:/Bournemouth University/Year 2/Programming For Interaction/ProgrammingForInteraction/Week 6 Project/UE5_Week6/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/JI/232OMPP1GV0BCL0R4RP4CQ.uasset"
+			]
+		}
+	]
+}
