@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "FPI",
+			"Path": "..\\Source\\FPI.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "FPIEditor",
+			"Path": "..\\Source\\FPIEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
