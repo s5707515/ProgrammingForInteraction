@@ -46,20 +46,10 @@ void ASlidingDoor::Tick(float DeltaTime)
 
 }
 
-void ASlidingDoor::ToggleDoorState()
+void ASlidingDoor::OpenDoor()
 {
 	FVector currentPosition = GetActorLocation();
 
-
-	if (isOpen)
-	{
-		targetPosition = closedPosition;
-		isOpen = false;
-	}
-	else
-	{
-		targetPosition = openPosition;
-		isOpen = true;
-	}
+	targetPosition = openPosition;
 }
 

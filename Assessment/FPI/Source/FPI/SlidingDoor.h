@@ -33,11 +33,9 @@ public:
 	float slideSpeed = 3.0f;
 
 
-	UFUNCTION(BlueprintCallable, Category = "Movement") void ToggleDoorState();
+	UFUNCTION(BlueprintCallable, Category = "Movement") void OpenDoor();
 
 private:
-
-	bool isOpen = false;
 
 	FVector closedPosition;
 

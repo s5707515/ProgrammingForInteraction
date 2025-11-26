@@ -18,7 +18,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 // ********** Begin Class ASlidingDoor *************************************************************
 #define FID_FPI_Source_FPI_SlidingDoor_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	DECLARE_FUNCTION(execToggleDoorState);
+	DECLARE_FUNCTION(execOpenDoor);
 
 
 FPI_API UClass* Z_Construct_UClass_ASlidingDoor_NoRegister();

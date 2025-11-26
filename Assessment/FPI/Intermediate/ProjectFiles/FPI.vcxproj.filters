@@ -33,6 +33,12 @@
     <Filter Include="Source\FPI">
       <UniqueIdentifier>{2CDDC15D-5851-3EC2-A61E-8345E4B1D615}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\FPI\DoorButton.cpp">
+      <Filter>Source\FPI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPI\DoorButton.h">
+      <Filter>Source\FPI</Filter>
+    </ClInclude>
     <None Include="..\..\Source\FPI\FPI.Build.cs">
       <Filter>Source\FPI</Filter>
     </None>
@@ -64,6 +70,12 @@
       <Filter>Source\FPI</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\FPI\FPIPlayerController.h">
+      <Filter>Source\FPI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPI\Keypad.cpp">
+      <Filter>Source\FPI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPI\Keypad.h">
       <Filter>Source\FPI</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\FPI\SlidingDoor.cpp">

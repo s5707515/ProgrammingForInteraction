@@ -20,8 +20,8 @@ FPI_API UClass* Z_Construct_UClass_ASlidingDoor_NoRegister();
 UPackage* Z_Construct_UPackage__Script_FPI();
 // ********** End Cross Module References **********************************************************
 
-// ********** Begin Class ASlidingDoor Function ToggleDoorState ************************************
-struct Z_Construct_UFunction_ASlidingDoor_ToggleDoorState_Statics
+// ********** Begin Class ASlidingDoor Function OpenDoor *******************************************
+struct Z_Construct_UFunction_ASlidingDoor_OpenDoor_Statics
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
@@ -31,31 +31,31 @@ struct Z_Construct_UFunction_ASlidingDoor_ToggleDoorState_Statics
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FFunctionParams FuncParams;
 };
-const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ASlidingDoor_ToggleDoorState_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_ASlidingDoor, nullptr, "ToggleDoorState", nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ASlidingDoor_ToggleDoorState_Statics::Function_MetaDataParams), Z_Construct_UFunction_ASlidingDoor_ToggleDoorState_Statics::Function_MetaDataParams)},  };
-UFunction* Z_Construct_UFunction_ASlidingDoor_ToggleDoorState()
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ASlidingDoor_OpenDoor_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_ASlidingDoor, nullptr, "OpenDoor", nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ASlidingDoor_OpenDoor_Statics::Function_MetaDataParams), Z_Construct_UFunction_ASlidingDoor_OpenDoor_Statics::Function_MetaDataParams)},  };
+UFunction* Z_Construct_UFunction_ASlidingDoor_OpenDoor()
 {
 	static UFunction* ReturnFunction = nullptr;
 	if (!ReturnFunction)
 	{
-		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_ASlidingDoor_ToggleDoorState_Statics::FuncParams);
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_ASlidingDoor_OpenDoor_Statics::FuncParams);
 	}
 	return ReturnFunction;
 }
-DEFINE_FUNCTION(ASlidingDoor::execToggleDoorState)
+DEFINE_FUNCTION(ASlidingDoor::execOpenDoor)
 {
 	P_FINISH;
 	P_NATIVE_BEGIN;
-	P_THIS->ToggleDoorState();
+	P_THIS->OpenDoor();
 	P_NATIVE_END;
 }
-// ********** End Class ASlidingDoor Function ToggleDoorState **************************************
+// ********** End Class ASlidingDoor Function OpenDoor *********************************************
 
 // ********** Begin Class ASlidingDoor *************************************************************
 void ASlidingDoor::StaticRegisterNativesASlidingDoor()
 {
 	UClass* Class = ASlidingDoor::StaticClass();
 	static const FNameNativePtrPair Funcs[] = {
-		{ "ToggleDoorState", &ASlidingDoor::execToggleDoorState },
+		{ "OpenDoor", &ASlidingDoor::execOpenDoor },
 	};
 	FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 }
@@ -115,7 +115,7 @@ struct Z_Construct_UClass_ASlidingDoor_Statics
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_ASlidingDoor_ToggleDoorState, "ToggleDoorState" }, // 4224950977
+		{ &Z_Construct_UFunction_ASlidingDoor_OpenDoor, "OpenDoor" }, // 2873238859
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -168,10 +168,10 @@ ASlidingDoor::~ASlidingDoor() {}
 struct Z_CompiledInDeferFile_FID_FPI_Source_FPI_SlidingDoor_h__Script_FPI_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ASlidingDoor, ASlidingDoor::StaticClass, TEXT("ASlidingDoor"), &Z_Registration_Info_UClass_ASlidingDoor, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ASlidingDoor), 1687237956U) },
+		{ Z_Construct_UClass_ASlidingDoor, ASlidingDoor::StaticClass, TEXT("ASlidingDoor"), &Z_Registration_Info_UClass_ASlidingDoor, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ASlidingDoor), 4010553779U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_FPI_Source_FPI_SlidingDoor_h__Script_FPI_3810770223(TEXT("/Script/FPI"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_FPI_Source_FPI_SlidingDoor_h__Script_FPI_2681156205(TEXT("/Script/FPI"),
 	Z_CompiledInDeferFile_FID_FPI_Source_FPI_SlidingDoor_h__Script_FPI_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_FPI_Source_FPI_SlidingDoor_h__Script_FPI_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
