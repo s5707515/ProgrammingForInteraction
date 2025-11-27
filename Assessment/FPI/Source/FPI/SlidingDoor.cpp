@@ -20,8 +20,10 @@ void ASlidingDoor::BeginPlay()
 {
 	Super::BeginPlay();
 
+	FVector LeftDirection = -doorMesh->GetForwardVector();
+
 	closedPosition = GetActorLocation();
-	openPosition = closedPosition + slideDistance;
+	openPosition = closedPosition + (LeftDirection * slideDistance);
 
 	targetPosition = closedPosition;
 }

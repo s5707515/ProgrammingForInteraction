@@ -9,12 +9,17 @@ ADoorButton::ADoorButton()
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
+	buttonMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Button Mesh"));
+	RootComponent = buttonMesh;
+
 }
 
 // Called when the game starts or when spawned
 void ADoorButton::BeginPlay()
 {
 	Super::BeginPlay();
+
+	
 	
 }
 

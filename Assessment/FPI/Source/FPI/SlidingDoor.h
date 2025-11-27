@@ -27,7 +27,7 @@ public:
 	UStaticMeshComponent* doorMesh;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	FVector slideDistance = FVector(2000, 0, 0);
+	float slideDistance = 2000;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	float slideSpeed = 3.0f;

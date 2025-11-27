@@ -2239,6 +2239,22 @@
           "bin/placeholder/EpicGames.UHT.dll": {}
         }
       },
+      "MarketplaceRules/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "EpicGames.Build": "1.0.0",
+          "UE5ProgramRules": "1.0.0",
+          "UE5Rules": "1.0.0",
+          "UnrealBuildTool": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MarketplaceRules.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MarketplaceRules.dll": {}
+        }
+      },
       "UE5ProgramRules/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -6960,6 +6976,11 @@
       "path": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source\\Programs\\Shared\\EpicGames.UHT\\EpicGames.UHT.csproj",
       "msbuildProject": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source\\Programs\\Shared\\EpicGames.UHT\\EpicGames.UHT.csproj"
     },
+    "MarketplaceRules/1.0.0": {
+      "type": "project",
+      "path": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Intermediate\\Build\\BuildRulesProjects\\MarketplaceRules\\MarketplaceRules.csproj",
+      "msbuildProject": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Intermediate\\Build\\BuildRulesProjects\\MarketplaceRules\\MarketplaceRules.csproj"
+    },
     "UE5ProgramRules/1.0.0": {
       "type": "project",
       "path": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5ProgramRules\\UE5ProgramRules.csproj",
@@ -6979,29 +7000,30 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "EpicGames.Build >= 1.0.0",
+      "MarketplaceRules >= 1.0.0",
       "UE5ProgramRules >= 1.0.0",
       "UE5Rules >= 1.0.0",
       "UnrealBuildTool >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\morja\\.nuget\\packages\\": {},
+    "C:\\Users\\s5707515\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Bournemouth University\\Year 2\\PFI\\ProgrammingForInteraction\\Assessment\\FPI\\Intermediate\\Build\\BuildRulesProjects\\FPIModuleRules\\FPIModuleRules.csproj",
+      "projectUniqueName": "D:\\s5707515\\PFI\\ProgrammingForInteraction\\Assessment\\FPI\\Intermediate\\Build\\BuildRulesProjects\\FPIModuleRules\\FPIModuleRules.csproj",
       "projectName": "FPIModuleRules",
-      "projectPath": "D:\\Bournemouth University\\Year 2\\PFI\\ProgrammingForInteraction\\Assessment\\FPI\\Intermediate\\Build\\BuildRulesProjects\\FPIModuleRules\\FPIModuleRules.csproj",
-      "packagesPath": "C:\\Users\\morja\\.nuget\\packages\\",
-      "outputPath": "D:\\Bournemouth University\\Year 2\\PFI\\ProgrammingForInteraction\\Assessment\\FPI\\Intermediate\\Build\\BuildRulesProjects\\FPIModuleRules\\obj\\",
+      "projectPath": "D:\\s5707515\\PFI\\ProgrammingForInteraction\\Assessment\\FPI\\Intermediate\\Build\\BuildRulesProjects\\FPIModuleRules\\FPIModuleRules.csproj",
+      "packagesPath": "C:\\Users\\s5707515\\.nuget\\packages\\",
+      "outputPath": "D:\\s5707515\\PFI\\ProgrammingForInteraction\\Assessment\\FPI\\Intermediate\\Build\\BuildRulesProjects\\FPIModuleRules\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\morja\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\s5707515\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -7016,6 +7038,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+            "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Intermediate\\Build\\BuildRulesProjects\\MarketplaceRules\\MarketplaceRules.csproj": {
+              "projectPath": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Intermediate\\Build\\BuildRulesProjects\\MarketplaceRules\\MarketplaceRules.csproj"
+            },
             "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5ProgramRules\\UE5ProgramRules.csproj": {
               "projectPath": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5ProgramRules\\UE5ProgramRules.csproj"
             },
@@ -7041,7 +7066,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0": {
@@ -7062,7 +7087,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

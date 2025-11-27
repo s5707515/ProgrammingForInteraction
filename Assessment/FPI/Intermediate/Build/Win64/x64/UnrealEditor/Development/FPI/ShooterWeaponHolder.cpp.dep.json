@@ -1,13 +1,13 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "d:\\bournemouth university\\year 2\\pfi\\programmingforinteraction\\assessment\\fpi\\source\\fpi\\variant_shooter\\weapons\\shooterweaponholder.cpp",
+        "Source": "d:\\s5707515\\pfi\\programmingforinteraction\\assessment\\fpi\\source\\fpi\\variant_shooter\\weapons\\shooterweaponholder.cpp",
         "ProvidedModule": "",
-        "PCH": "d:\\bournemouth university\\year 2\\pfi\\programmingforinteraction\\assessment\\fpi\\intermediate\\build\\win64\\x64\\fpieditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "PCH": "d:\\s5707515\\pfi\\programmingforinteraction\\assessment\\fpi\\intermediate\\build\\win64\\x64\\fpieditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
         "Includes": [
-            "d:\\bournemouth university\\year 2\\pfi\\programmingforinteraction\\assessment\\fpi\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\fpi\\definitions.fpi.h",
-            "d:\\bournemouth university\\year 2\\pfi\\programmingforinteraction\\assessment\\fpi\\source\\fpi\\variant_shooter\\weapons\\shooterweaponholder.h",
-            "d:\\bournemouth university\\year 2\\pfi\\programmingforinteraction\\assessment\\fpi\\intermediate\\build\\win64\\unrealeditor\\inc\\fpi\\uht\\shooterweaponholder.generated.h"
+            "d:\\s5707515\\pfi\\programmingforinteraction\\assessment\\fpi\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\fpi\\definitions.fpi.h",
+            "d:\\s5707515\\pfi\\programmingforinteraction\\assessment\\fpi\\source\\fpi\\variant_shooter\\weapons\\shooterweaponholder.h",
+            "d:\\s5707515\\pfi\\programmingforinteraction\\assessment\\fpi\\intermediate\\build\\win64\\unrealeditor\\inc\\fpi\\uht\\shooterweaponholder.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

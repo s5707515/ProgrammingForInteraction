@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"D:\\Bournemouth University\\Year 2\\PFI\\ProgrammingForInteraction\\Assessment\\FPI\\Source\\FPI\\FPI.Build.cs",
-		"D:\\Bournemouth University\\Year 2\\PFI\\ProgrammingForInteraction\\Assessment\\FPI\\Source\\FPI.Target.cs",
-		"D:\\Bournemouth University\\Year 2\\PFI\\ProgrammingForInteraction\\Assessment\\FPI\\Source\\FPIEditor.Target.cs"
+		"D:\\s5707515\\PFI\\ProgrammingForInteraction\\Assessment\\FPI\\Source\\FPI\\FPI.Build.cs",
+		"D:\\s5707515\\PFI\\ProgrammingForInteraction\\Assessment\\FPI\\Source\\FPI.Target.cs",
+		"D:\\s5707515\\PFI\\ProgrammingForInteraction\\Assessment\\FPI\\Source\\FPIEditor.Target.cs"
 	],
 	"EngineVersion": "5.6.1"
 }
