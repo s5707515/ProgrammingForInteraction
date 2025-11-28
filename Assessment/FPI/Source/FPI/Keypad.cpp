@@ -9,6 +9,8 @@ AKeypad::AKeypad()
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
+	keypadMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Button Mesh"));
+	RootComponent = keypadMesh;
 }
 
 // Called when the game starts or when spawned

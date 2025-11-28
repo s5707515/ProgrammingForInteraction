@@ -13,6 +13,7 @@ void EmptyLinkFunctionForGeneratedCodeKeypad() {}
 
 // ********** Begin Cross Module References ********************************************************
 ENGINE_API UClass* Z_Construct_UClass_AActor();
+ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 FPI_API UClass* Z_Construct_UClass_AKeypad();
 FPI_API UClass* Z_Construct_UClass_AKeypad_NoRegister();
 UPackage* Z_Construct_UPackage__Script_FPI();
@@ -58,13 +59,25 @@ struct Z_Construct_UClass_AKeypad_Statics
 		{ "IncludePath", "Keypad.h" },
 		{ "ModuleRelativePath", "Keypad.h" },
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_keypadMesh_MetaData[] = {
+		{ "Category", "Keypad" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Keypad.h" },
+	};
 #endif // WITH_METADATA
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_keypadMesh;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AKeypad>::IsAbstract,
 	};
 	static const UECodeGen_Private::FClassParams ClassParams;
 };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AKeypad_Statics::NewProp_keypadMesh = { "keypadMesh", nullptr, (EPropertyFlags)0x001000000008000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AKeypad, keypadMesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_keypadMesh_MetaData), NewProp_keypadMesh_MetaData) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AKeypad_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AKeypad_Statics::NewProp_keypadMesh,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_AKeypad_Statics::PropPointers) < 2048);
 UObject* (*const Z_Construct_UClass_AKeypad_Statics::DependentSingletons[])() = {
 	(UObject* (*)())Z_Construct_UClass_AActor,
 	(UObject* (*)())Z_Construct_UPackage__Script_FPI,
@@ -76,11 +89,11 @@ const UECodeGen_Private::FClassParams Z_Construct_UClass_AKeypad_Statics::ClassP
 	&StaticCppClassTypeInfo,
 	DependentSingletons,
 	nullptr,
-	nullptr,
+	Z_Construct_UClass_AKeypad_Statics::PropPointers,
 	nullptr,
 	UE_ARRAY_COUNT(DependentSingletons),
 	0,
-	0,
+	UE_ARRAY_COUNT(Z_Construct_UClass_AKeypad_Statics::PropPointers),
 	0,
 	0x009001A4u,
 	METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AKeypad_Statics::Class_MetaDataParams), Z_Construct_UClass_AKeypad_Statics::Class_MetaDataParams)
@@ -101,10 +114,10 @@ AKeypad::~AKeypad() {}
 struct Z_CompiledInDeferFile_FID_FPI_Source_FPI_Keypad_h__Script_FPI_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AKeypad, AKeypad::StaticClass, TEXT("AKeypad"), &Z_Registration_Info_UClass_AKeypad, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AKeypad), 1324161161U) },
+		{ Z_Construct_UClass_AKeypad, AKeypad::StaticClass, TEXT("AKeypad"), &Z_Registration_Info_UClass_AKeypad, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AKeypad), 4025144222U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_FPI_Source_FPI_Keypad_h__Script_FPI_2843685611(TEXT("/Script/FPI"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_FPI_Source_FPI_Keypad_h__Script_FPI_1516030905(TEXT("/Script/FPI"),
 	Z_CompiledInDeferFile_FID_FPI_Source_FPI_Keypad_h__Script_FPI_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_FPI_Source_FPI_Keypad_h__Script_FPI_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

@@ -1,12 +1,12 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "d:\\s5707515\\pfi\\programmingforinteraction\\assessment\\fpi\\source\\fpi\\variant_shooter\\ui\\shooterui.cpp",
+        "Source": "d:\\bournemouth university\\year 2\\pfi\\programmingforinteraction\\assessment\\fpi\\source\\fpi\\variant_shooter\\ui\\shooterui.cpp",
         "ProvidedModule": "",
-        "PCH": "d:\\s5707515\\pfi\\programmingforinteraction\\assessment\\fpi\\intermediate\\build\\win64\\x64\\fpieditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "PCH": "d:\\bournemouth university\\year 2\\pfi\\programmingforinteraction\\assessment\\fpi\\intermediate\\build\\win64\\x64\\fpieditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
         "Includes": [
-            "d:\\s5707515\\pfi\\programmingforinteraction\\assessment\\fpi\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\fpi\\definitions.fpi.h",
-            "d:\\s5707515\\pfi\\programmingforinteraction\\assessment\\fpi\\source\\fpi\\variant_shooter\\ui\\shooterui.h",
+            "d:\\bournemouth university\\year 2\\pfi\\programmingforinteraction\\assessment\\fpi\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\fpi\\definitions.fpi.h",
+            "d:\\bournemouth university\\year 2\\pfi\\programmingforinteraction\\assessment\\fpi\\source\\fpi\\variant_shooter\\ui\\shooterui.h",
             "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\umg\\public\\blueprint\\userwidget.h",
             "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\umg\\public\\blueprint\\umgsequenceplaymode.h",
             "c:\\program files\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\umg\\uht\\umgsequenceplaymode.generated.h",
@@ -76,7 +76,7 @@
             "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\moviescene\\public\\entitysystem\\relativeptr.h",
             "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\moviescene\\public\\evaluation\\moviescenepreanimatedstate.h",
             "c:\\program files\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\umg\\uht\\userwidget.generated.h",
-            "d:\\s5707515\\pfi\\programmingforinteraction\\assessment\\fpi\\intermediate\\build\\win64\\unrealeditor\\inc\\fpi\\uht\\shooterui.generated.h"
+            "d:\\bournemouth university\\year 2\\pfi\\programmingforinteraction\\assessment\\fpi\\intermediate\\build\\win64\\unrealeditor\\inc\\fpi\\uht\\shooterui.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
