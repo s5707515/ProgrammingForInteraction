@@ -11,6 +11,7 @@
     <None Include="..\..\Source\FPIEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.vsconfig" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -75,6 +76,12 @@
       <Filter>Source\FPI</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\FPI\Keypad.h">
+      <Filter>Source\FPI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPI\KeypadWidget.cpp">
+      <Filter>Source\FPI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPI\KeypadWidget.h">
       <Filter>Source\FPI</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\FPI\SlidingDoor.cpp">

@@ -6,6 +6,8 @@
 #include "GameFramework/Actor.h"
 #include "Keypad.generated.h"
 
+
+
 UCLASS()
 class FPI_API AKeypad : public AActor
 {
@@ -25,4 +27,5 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	UStaticMeshComponent* keypadMesh;
+
 };

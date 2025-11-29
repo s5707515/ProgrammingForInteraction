@@ -2,6 +2,7 @@
 	"RemapUnityFiles": 
 	{
 		"Module.FPI.cpp.obj": [
+			"DoorButton.gen.cpp.obj",
 			"EnvQueryContext_Target.gen.cpp.obj",
 			"FPI.init.gen.cpp.obj",
 			"FPICameraManager.gen.cpp.obj",
@@ -27,6 +28,7 @@
 			"ShooterWeaponHolder.gen.cpp.obj",
 			"SlidingDoor.gen.cpp.obj",
 			"PerModuleInline.gen.cpp.obj",
+			"DoorButton.cpp.obj",
 			"FPI.cpp.obj",
 			"FPICameraManager.cpp.obj",
 			"FPICharacter.cpp.obj",

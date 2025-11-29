@@ -19,7 +19,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 // ********** Begin Class AKeypad ******************************************************************
 FPI_API UClass* Z_Construct_UClass_AKeypad_NoRegister();
 
-#define FID_FPI_Source_FPI_Keypad_h_12_INCLASS_NO_PURE_DECLS \
+#define FID_FPI_Source_FPI_Keypad_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAKeypad(); \
 	friend struct Z_Construct_UClass_AKeypad_Statics; \
@@ -30,7 +30,7 @@ public: \
 	DECLARE_SERIALIZER(AKeypad)
 
 
-#define FID_FPI_Source_FPI_Keypad_h_12_ENHANCED_CONSTRUCTORS \
+#define FID_FPI_Source_FPI_Keypad_h_14_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	AKeypad(AKeypad&&) = delete; \
 	AKeypad(const AKeypad&) = delete; \
@@ -40,12 +40,12 @@ public: \
 	NO_API virtual ~AKeypad();
 
 
-#define FID_FPI_Source_FPI_Keypad_h_9_PROLOG
-#define FID_FPI_Source_FPI_Keypad_h_12_GENERATED_BODY \
+#define FID_FPI_Source_FPI_Keypad_h_11_PROLOG
+#define FID_FPI_Source_FPI_Keypad_h_14_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_FPI_Source_FPI_Keypad_h_12_INCLASS_NO_PURE_DECLS \
-	FID_FPI_Source_FPI_Keypad_h_12_ENHANCED_CONSTRUCTORS \
+	FID_FPI_Source_FPI_Keypad_h_14_INCLASS_NO_PURE_DECLS \
+	FID_FPI_Source_FPI_Keypad_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
