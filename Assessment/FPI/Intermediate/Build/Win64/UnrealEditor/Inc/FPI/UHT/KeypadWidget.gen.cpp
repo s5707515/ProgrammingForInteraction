@@ -64,6 +64,81 @@ DEFINE_FUNCTION(UKeypadWidget::execAddToTextBox)
 }
 // ********** End Class UKeypadWidget Function AddToTextBox ****************************************
 
+// ********** Begin Class UKeypadWidget Function CheckPasscode *************************************
+struct Z_Construct_UFunction_UKeypadWidget_CheckPasscode_Statics
+{
+	struct KeypadWidget_eventCheckPasscode_Parms
+	{
+		bool ReturnValue;
+	};
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "KeypadWidget.h" },
+	};
+#endif // WITH_METADATA
+	static void NewProp_ReturnValue_SetBit(void* Obj);
+	static const UECodeGen_Private::FBoolPropertyParams NewProp_ReturnValue;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+void Z_Construct_UFunction_UKeypadWidget_CheckPasscode_Statics::NewProp_ReturnValue_SetBit(void* Obj)
+{
+	((KeypadWidget_eventCheckPasscode_Parms*)Obj)->ReturnValue = 1;
+}
+const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UKeypadWidget_CheckPasscode_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(KeypadWidget_eventCheckPasscode_Parms), &Z_Construct_UFunction_UKeypadWidget_CheckPasscode_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UKeypadWidget_CheckPasscode_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UKeypadWidget_CheckPasscode_Statics::NewProp_ReturnValue,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UKeypadWidget_CheckPasscode_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UKeypadWidget_CheckPasscode_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_UKeypadWidget, nullptr, "CheckPasscode", Z_Construct_UFunction_UKeypadWidget_CheckPasscode_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UKeypadWidget_CheckPasscode_Statics::PropPointers), sizeof(Z_Construct_UFunction_UKeypadWidget_CheckPasscode_Statics::KeypadWidget_eventCheckPasscode_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UKeypadWidget_CheckPasscode_Statics::Function_MetaDataParams), Z_Construct_UFunction_UKeypadWidget_CheckPasscode_Statics::Function_MetaDataParams)},  };
+static_assert(sizeof(Z_Construct_UFunction_UKeypadWidget_CheckPasscode_Statics::KeypadWidget_eventCheckPasscode_Parms) < MAX_uint16);
+UFunction* Z_Construct_UFunction_UKeypadWidget_CheckPasscode()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UKeypadWidget_CheckPasscode_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(UKeypadWidget::execCheckPasscode)
+{
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	*(bool*)Z_Param__Result=P_THIS->CheckPasscode();
+	P_NATIVE_END;
+}
+// ********** End Class UKeypadWidget Function CheckPasscode ***************************************
+
+// ********** Begin Class UKeypadWidget Function ClearPasscode *************************************
+struct Z_Construct_UFunction_UKeypadWidget_ClearPasscode_Statics
+{
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "KeypadWidget.h" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UKeypadWidget_ClearPasscode_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_UKeypadWidget, nullptr, "ClearPasscode", nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UKeypadWidget_ClearPasscode_Statics::Function_MetaDataParams), Z_Construct_UFunction_UKeypadWidget_ClearPasscode_Statics::Function_MetaDataParams)},  };
+UFunction* Z_Construct_UFunction_UKeypadWidget_ClearPasscode()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UKeypadWidget_ClearPasscode_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(UKeypadWidget::execClearPasscode)
+{
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	P_THIS->ClearPasscode();
+	P_NATIVE_END;
+}
+// ********** End Class UKeypadWidget Function ClearPasscode ***************************************
+
 // ********** Begin Class UKeypadWidget Function TextBoxBack ***************************************
 struct Z_Construct_UFunction_UKeypadWidget_TextBoxBack_Statics
 {
@@ -99,6 +174,8 @@ void UKeypadWidget::StaticRegisterNativesUKeypadWidget()
 	UClass* Class = UKeypadWidget::StaticClass();
 	static const FNameNativePtrPair Funcs[] = {
 		{ "AddToTextBox", &UKeypadWidget::execAddToTextBox },
+		{ "CheckPasscode", &UKeypadWidget::execCheckPasscode },
+		{ "ClearPasscode", &UKeypadWidget::execClearPasscode },
 		{ "TextBoxBack", &UKeypadWidget::execTextBoxBack },
 	};
 	FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
@@ -148,13 +225,20 @@ struct Z_Construct_UClass_UKeypadWidget_Statics
 		{ "Category", "KeypadWidget" },
 		{ "ModuleRelativePath", "KeypadWidget.h" },
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_passcode_MetaData[] = {
+		{ "Category", "KeypadWidget" },
+		{ "ModuleRelativePath", "KeypadWidget.h" },
+	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_passcode_TXT;
 	static const UECodeGen_Private::FIntPropertyParams NewProp_numDigits;
+	static const UECodeGen_Private::FStrPropertyParams NewProp_passcode;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
 		{ &Z_Construct_UFunction_UKeypadWidget_AddToTextBox, "AddToTextBox" }, // 3877922665
+		{ &Z_Construct_UFunction_UKeypadWidget_CheckPasscode, "CheckPasscode" }, // 3928226592
+		{ &Z_Construct_UFunction_UKeypadWidget_ClearPasscode, "ClearPasscode" }, // 291138295
 		{ &Z_Construct_UFunction_UKeypadWidget_TextBoxBack, "TextBoxBack" }, // 1318233907
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
@@ -165,9 +249,11 @@ struct Z_Construct_UClass_UKeypadWidget_Statics
 };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UKeypadWidget_Statics::NewProp_passcode_TXT = { "passcode_TXT", nullptr, (EPropertyFlags)0x0010000000080008, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UKeypadWidget, passcode_TXT), Z_Construct_UClass_UEditableTextBox_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_passcode_TXT_MetaData), NewProp_passcode_TXT_MetaData) };
 const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_UKeypadWidget_Statics::NewProp_numDigits = { "numDigits", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UKeypadWidget, numDigits), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_numDigits_MetaData), NewProp_numDigits_MetaData) };
+const UECodeGen_Private::FStrPropertyParams Z_Construct_UClass_UKeypadWidget_Statics::NewProp_passcode = { "passcode", nullptr, (EPropertyFlags)0x0010000000000015, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UKeypadWidget, passcode), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_passcode_MetaData), NewProp_passcode_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UKeypadWidget_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UKeypadWidget_Statics::NewProp_passcode_TXT,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UKeypadWidget_Statics::NewProp_numDigits,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UKeypadWidget_Statics::NewProp_passcode,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UKeypadWidget_Statics::PropPointers) < 2048);
 UObject* (*const Z_Construct_UClass_UKeypadWidget_Statics::DependentSingletons[])() = {
@@ -207,10 +293,10 @@ UKeypadWidget::~UKeypadWidget() {}
 struct Z_CompiledInDeferFile_FID_FPI_Source_FPI_KeypadWidget_h__Script_FPI_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UKeypadWidget, UKeypadWidget::StaticClass, TEXT("UKeypadWidget"), &Z_Registration_Info_UClass_UKeypadWidget, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UKeypadWidget), 3050096571U) },
+		{ Z_Construct_UClass_UKeypadWidget, UKeypadWidget::StaticClass, TEXT("UKeypadWidget"), &Z_Registration_Info_UClass_UKeypadWidget, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UKeypadWidget), 2656981367U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_FPI_Source_FPI_KeypadWidget_h__Script_FPI_2364847034(TEXT("/Script/FPI"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_FPI_Source_FPI_KeypadWidget_h__Script_FPI_1253867725(TEXT("/Script/FPI"),
 	Z_CompiledInDeferFile_FID_FPI_Source_FPI_KeypadWidget_h__Script_FPI_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_FPI_Source_FPI_KeypadWidget_h__Script_FPI_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

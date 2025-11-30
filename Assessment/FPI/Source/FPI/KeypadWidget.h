@@ -22,11 +22,20 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	int numDigits = 5;
 
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	FString passcode = "75821";
+
 	UFUNCTION(BlueprintCallable)
 	void AddToTextBox(const FString& text);
 
 	UFUNCTION(BlueprintCallable)
 	void TextBoxBack();
+
+	UFUNCTION(BlueprintCallable)
+	bool CheckPasscode();
+
+	UFUNCTION(BlueprintCallable)
+	void ClearPasscode();
 	
 	
 };

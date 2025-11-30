@@ -18,6 +18,8 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 // ********** Begin Class UKeypadWidget ************************************************************
 #define FID_FPI_Source_FPI_KeypadWidget_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execClearPasscode); \
+	DECLARE_FUNCTION(execCheckPasscode); \
 	DECLARE_FUNCTION(execTextBoxBack); \
 	DECLARE_FUNCTION(execAddToTextBox);
 

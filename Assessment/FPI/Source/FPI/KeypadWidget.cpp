@@ -30,3 +30,22 @@ void UKeypadWidget::TextBoxBack()
 		passcode_TXT->SetText(FText::FromString(oldText.LeftChop(1)));
 	}
 }
+
+bool UKeypadWidget::CheckPasscode()
+{
+	if (!passcode_TXT) return false;
+
+	if (passcode_TXT->GetText().ToString() == passcode)
+	{
+		return true;
+	}
+
+	return false;
+}
+
+void UKeypadWidget::ClearPasscode()
+{
+	if (!passcode_TXT) return;
+
+	passcode_TXT->SetText(FText::FromString(""));
+}
