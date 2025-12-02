@@ -201,6 +201,91 @@ DEFINE_FUNCTION(AFPICharacter::execDoMove)
 }
 // ********** End Class AFPICharacter Function DoMove **********************************************
 
+// ********** Begin Class AFPICharacter Function GetNumberOfKeysHeld *******************************
+struct Z_Construct_UFunction_AFPICharacter_GetNumberOfKeysHeld_Statics
+{
+	struct FPICharacter_eventGetNumberOfKeysHeld_Parms
+	{
+		int32 ReturnValue;
+	};
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "Category", "Keys" },
+		{ "ModuleRelativePath", "FPICharacter.h" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FIntPropertyParams NewProp_ReturnValue;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FIntPropertyParams Z_Construct_UFunction_AFPICharacter_GetNumberOfKeysHeld_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FPICharacter_eventGetNumberOfKeysHeld_Parms, ReturnValue), METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AFPICharacter_GetNumberOfKeysHeld_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AFPICharacter_GetNumberOfKeysHeld_Statics::NewProp_ReturnValue,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_AFPICharacter_GetNumberOfKeysHeld_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AFPICharacter_GetNumberOfKeysHeld_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_AFPICharacter, nullptr, "GetNumberOfKeysHeld", Z_Construct_UFunction_AFPICharacter_GetNumberOfKeysHeld_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AFPICharacter_GetNumberOfKeysHeld_Statics::PropPointers), sizeof(Z_Construct_UFunction_AFPICharacter_GetNumberOfKeysHeld_Statics::FPICharacter_eventGetNumberOfKeysHeld_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04080401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_AFPICharacter_GetNumberOfKeysHeld_Statics::Function_MetaDataParams), Z_Construct_UFunction_AFPICharacter_GetNumberOfKeysHeld_Statics::Function_MetaDataParams)},  };
+static_assert(sizeof(Z_Construct_UFunction_AFPICharacter_GetNumberOfKeysHeld_Statics::FPICharacter_eventGetNumberOfKeysHeld_Parms) < MAX_uint16);
+UFunction* Z_Construct_UFunction_AFPICharacter_GetNumberOfKeysHeld()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_AFPICharacter_GetNumberOfKeysHeld_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(AFPICharacter::execGetNumberOfKeysHeld)
+{
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	*(int32*)Z_Param__Result=P_THIS->GetNumberOfKeysHeld();
+	P_NATIVE_END;
+}
+// ********** End Class AFPICharacter Function GetNumberOfKeysHeld *********************************
+
+// ********** Begin Class AFPICharacter Function IncrementKeys *************************************
+struct Z_Construct_UFunction_AFPICharacter_IncrementKeys_Statics
+{
+	struct FPICharacter_eventIncrementKeys_Parms
+	{
+		int32 numKeys;
+	};
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "Category", "Keys" },
+		{ "ModuleRelativePath", "FPICharacter.h" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FIntPropertyParams NewProp_numKeys;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FIntPropertyParams Z_Construct_UFunction_AFPICharacter_IncrementKeys_Statics::NewProp_numKeys = { "numKeys", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FPICharacter_eventIncrementKeys_Parms, numKeys), METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AFPICharacter_IncrementKeys_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AFPICharacter_IncrementKeys_Statics::NewProp_numKeys,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_AFPICharacter_IncrementKeys_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AFPICharacter_IncrementKeys_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_AFPICharacter, nullptr, "IncrementKeys", Z_Construct_UFunction_AFPICharacter_IncrementKeys_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AFPICharacter_IncrementKeys_Statics::PropPointers), sizeof(Z_Construct_UFunction_AFPICharacter_IncrementKeys_Statics::FPICharacter_eventIncrementKeys_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04080401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_AFPICharacter_IncrementKeys_Statics::Function_MetaDataParams), Z_Construct_UFunction_AFPICharacter_IncrementKeys_Statics::Function_MetaDataParams)},  };
+static_assert(sizeof(Z_Construct_UFunction_AFPICharacter_IncrementKeys_Statics::FPICharacter_eventIncrementKeys_Parms) < MAX_uint16);
+UFunction* Z_Construct_UFunction_AFPICharacter_IncrementKeys()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_AFPICharacter_IncrementKeys_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(AFPICharacter::execIncrementKeys)
+{
+	P_GET_PROPERTY(FIntProperty,Z_Param_numKeys);
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	P_THIS->IncrementKeys(Z_Param_numKeys);
+	P_NATIVE_END;
+}
+// ********** End Class AFPICharacter Function IncrementKeys ***************************************
+
 // ********** Begin Class AFPICharacter ************************************************************
 void AFPICharacter::StaticRegisterNativesAFPICharacter()
 {
@@ -210,6 +295,8 @@ void AFPICharacter::StaticRegisterNativesAFPICharacter()
 		{ "DoJumpEnd", &AFPICharacter::execDoJumpEnd },
 		{ "DoJumpStart", &AFPICharacter::execDoJumpStart },
 		{ "DoMove", &AFPICharacter::execDoMove },
+		{ "GetNumberOfKeysHeld", &AFPICharacter::execGetNumberOfKeysHeld },
+		{ "IncrementKeys", &AFPICharacter::execIncrementKeys },
 	};
 	FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 }
@@ -334,6 +421,8 @@ struct Z_Construct_UClass_AFPICharacter_Statics
 		{ &Z_Construct_UFunction_AFPICharacter_DoJumpEnd, "DoJumpEnd" }, // 1297560514
 		{ &Z_Construct_UFunction_AFPICharacter_DoJumpStart, "DoJumpStart" }, // 4042457706
 		{ &Z_Construct_UFunction_AFPICharacter_DoMove, "DoMove" }, // 2707374750
+		{ &Z_Construct_UFunction_AFPICharacter_GetNumberOfKeysHeld, "GetNumberOfKeysHeld" }, // 1223694424
+		{ &Z_Construct_UFunction_AFPICharacter_IncrementKeys, "IncrementKeys" }, // 2023434913
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -392,10 +481,10 @@ AFPICharacter::~AFPICharacter() {}
 struct Z_CompiledInDeferFile_FID_FPI_Source_FPI_FPICharacter_h__Script_FPI_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AFPICharacter, AFPICharacter::StaticClass, TEXT("AFPICharacter"), &Z_Registration_Info_UClass_AFPICharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AFPICharacter), 320376597U) },
+		{ Z_Construct_UClass_AFPICharacter, AFPICharacter::StaticClass, TEXT("AFPICharacter"), &Z_Registration_Info_UClass_AFPICharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AFPICharacter), 258397817U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_FPI_Source_FPI_FPICharacter_h__Script_FPI_2063293621(TEXT("/Script/FPI"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_FPI_Source_FPI_FPICharacter_h__Script_FPI_4081446077(TEXT("/Script/FPI"),
 	Z_CompiledInDeferFile_FID_FPI_Source_FPI_FPICharacter_h__Script_FPI_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_FPI_Source_FPI_FPICharacter_h__Script_FPI_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

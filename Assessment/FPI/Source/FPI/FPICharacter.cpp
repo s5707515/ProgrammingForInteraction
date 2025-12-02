@@ -118,3 +118,13 @@ void AFPICharacter::DoJumpEnd()
 	// pass StopJumping to the character
 	StopJumping();
 }
+
+int AFPICharacter::GetNumberOfKeysHeld()
+{
+	return numKeysHeld;
+}
+
+void AFPICharacter::IncrementKeys(int numKeys)
+{
+	numKeysHeld += numKeys;
+}

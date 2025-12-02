@@ -48,6 +48,10 @@ protected:
 	/** Mouse Look Input Action */
 	UPROPERTY(EditAnywhere, Category ="Input")
 	class UInputAction* MouseLookAction;
+
+public:
+
+	int numKeysHeld = 0;
 	
 public:
 	AFPICharacter();
@@ -75,6 +79,12 @@ protected:
 	/** Handles jump end inputs from either controls or UI interfaces */
 	UFUNCTION(BlueprintCallable, Category="Input")
 	virtual void DoJumpEnd();
+
+	UFUNCTION(BlueprintCallable, Category="Keys")
+	int GetNumberOfKeysHeld();
+
+	UFUNCTION(BlueprintCallable, Category="Keys")
+	void IncrementKeys(int numKeys);
 
 protected:
 

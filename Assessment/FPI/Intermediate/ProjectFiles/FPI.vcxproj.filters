@@ -72,12 +72,6 @@
     <ClInclude Include="..\..\Source\FPI\FPIPlayerController.h">
       <Filter>Source\FPI</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\FPI\Key.cpp">
-      <Filter>Source\FPI</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\FPI\Key.h">
-      <Filter>Source\FPI</Filter>
-    </ClInclude>
     <ClCompile Include="..\..\Source\FPI\Keypad.cpp">
       <Filter>Source\FPI</Filter>
     </ClCompile>
@@ -94,6 +88,12 @@
       <Filter>Source\FPI</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\FPI\KeyPowerUp.h">
+      <Filter>Source\FPI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPI\LockedDoorButton.cpp">
+      <Filter>Source\FPI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPI\LockedDoorButton.h">
       <Filter>Source\FPI</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\FPI\SlidingDoor.cpp">
