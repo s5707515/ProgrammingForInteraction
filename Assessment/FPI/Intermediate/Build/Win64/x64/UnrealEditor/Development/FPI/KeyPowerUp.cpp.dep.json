@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\bournemouth university\\year 2\\pfi\\programmingforinteraction\\assessment\\fpi\\source\\fpi\\keypowerup.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\bournemouth university\\year 2\\pfi\\programmingforinteraction\\assessment\\fpi\\intermediate\\build\\win64\\x64\\fpieditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\bournemouth university\\year 2\\pfi\\programmingforinteraction\\assessment\\fpi\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\fpi\\definitions.fpi.h",
+            "d:\\bournemouth university\\year 2\\pfi\\programmingforinteraction\\assessment\\fpi\\source\\fpi\\keypowerup.h",
+            "d:\\bournemouth university\\year 2\\pfi\\programmingforinteraction\\assessment\\fpi\\intermediate\\build\\win64\\unrealeditor\\inc\\fpi\\uht\\keypowerup.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
