@@ -11,7 +11,6 @@
     <None Include="..\..\Source\FPIEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
-    <None Include="..\..\.vsconfig" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -90,10 +89,10 @@
     <ClInclude Include="..\..\Source\FPI\KeyPowerUp.h">
       <Filter>Source\FPI</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\FPI\LockedDoorButton.cpp">
+    <ClCompile Include="..\..\Source\FPI\Objectives.cpp">
       <Filter>Source\FPI</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\FPI\LockedDoorButton.h">
+    <ClInclude Include="..\..\Source\FPI\Objectives.h">
       <Filter>Source\FPI</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\FPI\SlidingDoor.cpp">
