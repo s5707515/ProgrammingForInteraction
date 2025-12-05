@@ -1,0 +1,41 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-FPI-9358.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:/Bournemouth University/Year 2/PFI/ProgrammingForInteraction/Assessment/FPI/Intermediate/Build/Win64/x64/FPIEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h.obj"
+"D:/Bournemouth University/Year 2/PFI/ProgrammingForInteraction/Assessment/FPI/Intermediate/Build/Win64/x64/UnrealEditor/Development/FPI/Module.FPI.cpp.obj"
+"D:/Bournemouth University/Year 2/PFI/ProgrammingForInteraction/Assessment/FPI/Intermediate/Build/Win64/x64/UnrealEditor/Development/FPI/DoorButton.cpp.obj"
+"D:/Bournemouth University/Year 2/PFI/ProgrammingForInteraction/Assessment/FPI/Intermediate/Build/Win64/x64/UnrealEditor/Development/FPI/FPI.cpp.obj"
+"D:/Bournemouth University/Year 2/PFI/ProgrammingForInteraction/Assessment/FPI/Intermediate/Build/Win64/x64/UnrealEditor/Development/FPI/FPICameraManager.cpp.obj"
+"D:/Bournemouth University/Year 2/PFI/ProgrammingForInteraction/Assessment/FPI/Intermediate/Build/Win64/x64/UnrealEditor/Development/FPI/FPICharacter.cpp.obj"
+"D:/Bournemouth University/Year 2/PFI/ProgrammingForInteraction/Assessment/FPI/Intermediate/Build/Win64/x64/UnrealEditor/Development/FPI/FPIGameMode.cpp.obj"
+"D:/Bournemouth University/Year 2/PFI/ProgrammingForInteraction/Assessment/FPI/Intermediate/Build/Win64/x64/UnrealEditor/Development/FPI/FPIPlayerController.cpp.obj"
+"D:/Bournemouth University/Year 2/PFI/ProgrammingForInteraction/Assessment/FPI/Intermediate/Build/Win64/x64/UnrealEditor/Development/FPI/Keypad.cpp.obj"
+"D:/Bournemouth University/Year 2/PFI/ProgrammingForInteraction/Assessment/FPI/Intermediate/Build/Win64/x64/UnrealEditor/Development/FPI/KeypadWidget.cpp.obj"
+"D:/Bournemouth University/Year 2/PFI/ProgrammingForInteraction/Assessment/FPI/Intermediate/Build/Win64/x64/UnrealEditor/Development/FPI/KeyPowerUp.cpp.obj"
+"D:/Bournemouth University/Year 2/PFI/ProgrammingForInteraction/Assessment/FPI/Intermediate/Build/Win64/x64/UnrealEditor/Development/FPI/MovingPlatform.cpp.obj"
+"D:/Bournemouth University/Year 2/PFI/ProgrammingForInteraction/Assessment/FPI/Intermediate/Build/Win64/x64/UnrealEditor/Development/FPI/Objectives.cpp.obj"
+"D:/Bournemouth University/Year 2/PFI/ProgrammingForInteraction/Assessment/FPI/Intermediate/Build/Win64/x64/UnrealEditor/Development/FPI/SlidingDoor.cpp.obj"
+"D:/Bournemouth University/Year 2/PFI/ProgrammingForInteraction/Assessment/FPI/Intermediate/Build/Win64/x64/UnrealEditor/Development/FPI/HorrorCharacter.cpp.obj"
+"D:/Bournemouth University/Year 2/PFI/ProgrammingForInteraction/Assessment/FPI/Intermediate/Build/Win64/x64/UnrealEditor/Development/FPI/HorrorGameMode.cpp.obj"
+"D:/Bournemouth University/Year 2/PFI/ProgrammingForInteraction/Assessment/FPI/Intermediate/Build/Win64/x64/UnrealEditor/Development/FPI/HorrorPlayerController.cpp.obj"
+"D:/Bournemouth University/Year 2/PFI/ProgrammingForInteraction/Assessment/FPI/Intermediate/Build/Win64/x64/UnrealEditor/Development/FPI/HorrorUI.cpp.obj"
+"D:/Bournemouth University/Year 2/PFI/ProgrammingForInteraction/Assessment/FPI/Intermediate/Build/Win64/x64/UnrealEditor/Development/FPI/ShooterCharacter.cpp.obj"
+"D:/Bournemouth University/Year 2/PFI/ProgrammingForInteraction/Assessment/FPI/Intermediate/Build/Win64/x64/UnrealEditor/Development/FPI/ShooterGameMode.cpp.obj"
+"D:/Bournemouth University/Year 2/PFI/ProgrammingForInteraction/Assessment/FPI/Intermediate/Build/Win64/x64/UnrealEditor/Development/FPI/ShooterPlayerController.cpp.obj"
+"D:/Bournemouth University/Year 2/PFI/ProgrammingForInteraction/Assessment/FPI/Intermediate/Build/Win64/x64/UnrealEditor/Development/FPI/EnvQueryContext_Target.cpp.obj"
+"D:/Bournemouth University/Year 2/PFI/ProgrammingForInteraction/Assessment/FPI/Intermediate/Build/Win64/x64/UnrealEditor/Development/FPI/ShooterAIController.cpp.obj"
+"D:/Bournemouth University/Year 2/PFI/ProgrammingForInteraction/Assessment/FPI/Intermediate/Build/Win64/x64/UnrealEditor/Development/FPI/ShooterNPC.cpp.obj"
+"D:/Bournemouth University/Year 2/PFI/ProgrammingForInteraction/Assessment/FPI/Intermediate/Build/Win64/x64/UnrealEditor/Development/FPI/ShooterStateTreeUtility.cpp.obj"
+"D:/Bournemouth University/Year 2/PFI/ProgrammingForInteraction/Assessment/FPI/Intermediate/Build/Win64/x64/UnrealEditor/Development/FPI/ShooterBulletCounterUI.cpp.obj"
+"D:/Bournemouth University/Year 2/PFI/ProgrammingForInteraction/Assessment/FPI/Intermediate/Build/Win64/x64/UnrealEditor/Development/FPI/ShooterUI.cpp.obj"
+"D:/Bournemouth University/Year 2/PFI/ProgrammingForInteraction/Assessment/FPI/Intermediate/Build/Win64/x64/UnrealEditor/Development/FPI/ShooterPickup.cpp.obj"
+"D:/Bournemouth University/Year 2/PFI/ProgrammingForInteraction/Assessment/FPI/Intermediate/Build/Win64/x64/UnrealEditor/Development/FPI/ShooterProjectile.cpp.obj"
+"D:/Bournemouth University/Year 2/PFI/ProgrammingForInteraction/Assessment/FPI/Intermediate/Build/Win64/x64/UnrealEditor/Development/FPI/ShooterWeapon.cpp.obj"
+"D:/Bournemouth University/Year 2/PFI/ProgrammingForInteraction/Assessment/FPI/Intermediate/Build/Win64/x64/UnrealEditor/Development/FPI/ShooterWeaponHolder.cpp.obj"
+"D:/Bournemouth University/Year 2/PFI/ProgrammingForInteraction/Assessment/FPI/Intermediate/Build/Win64/x64/UnrealEditor/Development/FPI/Default.rc2.res"
+/OUT:"D:/Bournemouth University/Year 2/PFI/ProgrammingForInteraction/Assessment/FPI/Intermediate/Build/Win64/x64/UnrealEditor/Development/FPI/UnrealEditor-FPI-9358.lib"
