@@ -128,3 +128,25 @@ void AFPICharacter::IncrementKeys(int numKeys)
 {
 	numKeysHeld += numKeys;
 }
+
+void AFPICharacter::SetCheckpoint(FVector location, FRotator rotation)
+{
+	respawnLocation = location;
+	respawnAngle = rotation;
+
+	UE_LOG(LogTemp, Warning, TEXT("Checkpoint set!"))
+}
+
+void AFPICharacter::Respawn()
+{
+	if (respawnLocation != FVector::ZeroVector)
+	{
+		GetCharacterMovement()->StopMovementImmediately();
+
+		respawnLocation.Z += 100; //Stop player from spawning in ground
+
+		SetActorLocationAndRotation(respawnLocation, respawnAngle);
+	}
+
+	UE_LOG(LogTemp, Warning, TEXT("Respawn!"))
+}

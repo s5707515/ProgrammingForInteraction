@@ -80,11 +80,26 @@ protected:
 	UFUNCTION(BlueprintCallable, Category="Input")
 	virtual void DoJumpEnd();
 
+	//MY STUFF
+
 	UFUNCTION(BlueprintCallable, Category="Keys")
 	int GetNumberOfKeysHeld();
 
 	UFUNCTION(BlueprintCallable, Category="Keys")
 	void IncrementKeys(int numKeys);
+
+public:
+
+	UFUNCTION(BlueprintCallable)
+	void SetCheckpoint(FVector location, FRotator rotation);
+
+	UFUNCTION(BlueprintCallable)
+	void Respawn();
+
+private:
+
+	FVector respawnLocation;
+	FRotator respawnAngle;
 
 protected:
 

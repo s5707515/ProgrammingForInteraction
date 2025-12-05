@@ -12,6 +12,8 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeFPICharacter() {}
 
 // ********** Begin Cross Module References ********************************************************
+COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FRotator();
+COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 ENGINE_API UClass* Z_Construct_UClass_USkeletalMeshComponent_NoRegister();
@@ -211,7 +213,13 @@ struct Z_Construct_UFunction_AFPICharacter_GetNumberOfKeysHeld_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Keys" },
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "//MY STUFF\n" },
+#endif
 		{ "ModuleRelativePath", "FPICharacter.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "MY STUFF" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FIntPropertyParams NewProp_ReturnValue;
@@ -286,6 +294,82 @@ DEFINE_FUNCTION(AFPICharacter::execIncrementKeys)
 }
 // ********** End Class AFPICharacter Function IncrementKeys ***************************************
 
+// ********** Begin Class AFPICharacter Function Respawn *******************************************
+struct Z_Construct_UFunction_AFPICharacter_Respawn_Statics
+{
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "FPICharacter.h" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AFPICharacter_Respawn_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_AFPICharacter, nullptr, "Respawn", nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_AFPICharacter_Respawn_Statics::Function_MetaDataParams), Z_Construct_UFunction_AFPICharacter_Respawn_Statics::Function_MetaDataParams)},  };
+UFunction* Z_Construct_UFunction_AFPICharacter_Respawn()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_AFPICharacter_Respawn_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(AFPICharacter::execRespawn)
+{
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	P_THIS->Respawn();
+	P_NATIVE_END;
+}
+// ********** End Class AFPICharacter Function Respawn *********************************************
+
+// ********** Begin Class AFPICharacter Function SetCheckpoint *************************************
+struct Z_Construct_UFunction_AFPICharacter_SetCheckpoint_Statics
+{
+	struct FPICharacter_eventSetCheckpoint_Parms
+	{
+		FVector location;
+		FRotator rotation;
+	};
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "FPICharacter.h" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FStructPropertyParams NewProp_location;
+	static const UECodeGen_Private::FStructPropertyParams NewProp_rotation;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_AFPICharacter_SetCheckpoint_Statics::NewProp_location = { "location", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FPICharacter_eventSetCheckpoint_Parms, location), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_AFPICharacter_SetCheckpoint_Statics::NewProp_rotation = { "rotation", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FPICharacter_eventSetCheckpoint_Parms, rotation), Z_Construct_UScriptStruct_FRotator, METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AFPICharacter_SetCheckpoint_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AFPICharacter_SetCheckpoint_Statics::NewProp_location,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AFPICharacter_SetCheckpoint_Statics::NewProp_rotation,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_AFPICharacter_SetCheckpoint_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AFPICharacter_SetCheckpoint_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_AFPICharacter, nullptr, "SetCheckpoint", Z_Construct_UFunction_AFPICharacter_SetCheckpoint_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AFPICharacter_SetCheckpoint_Statics::PropPointers), sizeof(Z_Construct_UFunction_AFPICharacter_SetCheckpoint_Statics::FPICharacter_eventSetCheckpoint_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04820401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_AFPICharacter_SetCheckpoint_Statics::Function_MetaDataParams), Z_Construct_UFunction_AFPICharacter_SetCheckpoint_Statics::Function_MetaDataParams)},  };
+static_assert(sizeof(Z_Construct_UFunction_AFPICharacter_SetCheckpoint_Statics::FPICharacter_eventSetCheckpoint_Parms) < MAX_uint16);
+UFunction* Z_Construct_UFunction_AFPICharacter_SetCheckpoint()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_AFPICharacter_SetCheckpoint_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(AFPICharacter::execSetCheckpoint)
+{
+	P_GET_STRUCT(FVector,Z_Param_location);
+	P_GET_STRUCT(FRotator,Z_Param_rotation);
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	P_THIS->SetCheckpoint(Z_Param_location,Z_Param_rotation);
+	P_NATIVE_END;
+}
+// ********** End Class AFPICharacter Function SetCheckpoint ***************************************
+
 // ********** Begin Class AFPICharacter ************************************************************
 void AFPICharacter::StaticRegisterNativesAFPICharacter()
 {
@@ -297,6 +381,8 @@ void AFPICharacter::StaticRegisterNativesAFPICharacter()
 		{ "DoMove", &AFPICharacter::execDoMove },
 		{ "GetNumberOfKeysHeld", &AFPICharacter::execGetNumberOfKeysHeld },
 		{ "IncrementKeys", &AFPICharacter::execIncrementKeys },
+		{ "Respawn", &AFPICharacter::execRespawn },
+		{ "SetCheckpoint", &AFPICharacter::execSetCheckpoint },
 	};
 	FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 }
@@ -421,8 +507,10 @@ struct Z_Construct_UClass_AFPICharacter_Statics
 		{ &Z_Construct_UFunction_AFPICharacter_DoJumpEnd, "DoJumpEnd" }, // 1297560514
 		{ &Z_Construct_UFunction_AFPICharacter_DoJumpStart, "DoJumpStart" }, // 4042457706
 		{ &Z_Construct_UFunction_AFPICharacter_DoMove, "DoMove" }, // 2707374750
-		{ &Z_Construct_UFunction_AFPICharacter_GetNumberOfKeysHeld, "GetNumberOfKeysHeld" }, // 1223694424
+		{ &Z_Construct_UFunction_AFPICharacter_GetNumberOfKeysHeld, "GetNumberOfKeysHeld" }, // 2149750668
 		{ &Z_Construct_UFunction_AFPICharacter_IncrementKeys, "IncrementKeys" }, // 2023434913
+		{ &Z_Construct_UFunction_AFPICharacter_Respawn, "Respawn" }, // 2145467798
+		{ &Z_Construct_UFunction_AFPICharacter_SetCheckpoint, "SetCheckpoint" }, // 3552766939
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -481,10 +569,10 @@ AFPICharacter::~AFPICharacter() {}
 struct Z_CompiledInDeferFile_FID_FPI_Source_FPI_FPICharacter_h__Script_FPI_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AFPICharacter, AFPICharacter::StaticClass, TEXT("AFPICharacter"), &Z_Registration_Info_UClass_AFPICharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AFPICharacter), 258397817U) },
+		{ Z_Construct_UClass_AFPICharacter, AFPICharacter::StaticClass, TEXT("AFPICharacter"), &Z_Registration_Info_UClass_AFPICharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AFPICharacter), 1759317500U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_FPI_Source_FPI_FPICharacter_h__Script_FPI_4081446077(TEXT("/Script/FPI"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_FPI_Source_FPI_FPICharacter_h__Script_FPI_1800322678(TEXT("/Script/FPI"),
 	Z_CompiledInDeferFile_FID_FPI_Source_FPI_FPICharacter_h__Script_FPI_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_FPI_Source_FPI_FPICharacter_h__Script_FPI_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

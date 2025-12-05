@@ -33,6 +33,12 @@
     <Filter Include="Source\FPI">
       <UniqueIdentifier>{2CDDC15D-5851-3EC2-A61E-8345E4B1D615}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\FPI\Checkpoint.cpp">
+      <Filter>Source\FPI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPI\Checkpoint.h">
+      <Filter>Source\FPI</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\FPI\DoorButton.cpp">
       <Filter>Source\FPI</Filter>
     </ClCompile>
