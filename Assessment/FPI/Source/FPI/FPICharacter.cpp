@@ -146,6 +146,11 @@ void AFPICharacter::Respawn()
 		respawnLocation.Z += 100; //Stop player from spawning in ground
 
 		SetActorLocationAndRotation(respawnLocation, respawnAngle);
+
+		if (AController* CamController = GetController())
+		{
+			CamController->SetControlRotation(respawnAngle);
+		}
 	}
 
 	UE_LOG(LogTemp, Warning, TEXT("Respawn!"))
