@@ -27,4 +27,11 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	UStaticMeshComponent* keyPowerUpMesh;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Spin")
+	float rotationSpeed = 45.0f;
+
+private:
+
+	FVector rotationAxis = FVector(0, 0, 1);
+
 };

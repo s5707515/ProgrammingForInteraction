@@ -26,5 +26,12 @@ void AKeyPowerUp::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	float deltaDegrees = rotationSpeed * DeltaTime;
+
+
+	FQuat deltaQuat = FQuat(rotationAxis, FMath::DegreesToRadians(deltaDegrees));
+
+	AddActorLocalRotation(deltaQuat, false, nullptr, ETeleportType::None);
+
 }
 

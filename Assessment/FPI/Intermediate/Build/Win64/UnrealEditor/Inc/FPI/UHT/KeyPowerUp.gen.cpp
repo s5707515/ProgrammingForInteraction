@@ -64,8 +64,13 @@ struct Z_Construct_UClass_AKeyPowerUp_Statics
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "KeyPowerUp.h" },
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_rotationSpeed_MetaData[] = {
+		{ "Category", "Spin" },
+		{ "ModuleRelativePath", "KeyPowerUp.h" },
+	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_keyPowerUpMesh;
+	static const UECodeGen_Private::FFloatPropertyParams NewProp_rotationSpeed;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -74,8 +79,10 @@ struct Z_Construct_UClass_AKeyPowerUp_Statics
 	static const UECodeGen_Private::FClassParams ClassParams;
 };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AKeyPowerUp_Statics::NewProp_keyPowerUpMesh = { "keyPowerUpMesh", nullptr, (EPropertyFlags)0x001000000008000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AKeyPowerUp, keyPowerUpMesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_keyPowerUpMesh_MetaData), NewProp_keyPowerUpMesh_MetaData) };
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AKeyPowerUp_Statics::NewProp_rotationSpeed = { "rotationSpeed", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AKeyPowerUp, rotationSpeed), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_rotationSpeed_MetaData), NewProp_rotationSpeed_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AKeyPowerUp_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AKeyPowerUp_Statics::NewProp_keyPowerUpMesh,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AKeyPowerUp_Statics::NewProp_rotationSpeed,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_AKeyPowerUp_Statics::PropPointers) < 2048);
 UObject* (*const Z_Construct_UClass_AKeyPowerUp_Statics::DependentSingletons[])() = {
@@ -114,10 +121,10 @@ AKeyPowerUp::~AKeyPowerUp() {}
 struct Z_CompiledInDeferFile_FID_FPI_Source_FPI_KeyPowerUp_h__Script_FPI_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AKeyPowerUp, AKeyPowerUp::StaticClass, TEXT("AKeyPowerUp"), &Z_Registration_Info_UClass_AKeyPowerUp, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AKeyPowerUp), 3931922235U) },
+		{ Z_Construct_UClass_AKeyPowerUp, AKeyPowerUp::StaticClass, TEXT("AKeyPowerUp"), &Z_Registration_Info_UClass_AKeyPowerUp, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AKeyPowerUp), 626029274U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_FPI_Source_FPI_KeyPowerUp_h__Script_FPI_4238867990(TEXT("/Script/FPI"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_FPI_Source_FPI_KeyPowerUp_h__Script_FPI_2368857886(TEXT("/Script/FPI"),
 	Z_CompiledInDeferFile_FID_FPI_Source_FPI_KeyPowerUp_h__Script_FPI_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_FPI_Source_FPI_KeyPowerUp_h__Script_FPI_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
