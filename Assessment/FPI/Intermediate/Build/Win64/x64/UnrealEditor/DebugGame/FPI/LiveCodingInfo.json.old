@@ -2,6 +2,7 @@
 	"RemapUnityFiles": 
 	{
 		"Module.FPI.cpp.obj": [
+			"Checkpoint.gen.cpp.obj",
 			"DoorButton.gen.cpp.obj",
 			"EnvQueryContext_Target.gen.cpp.obj",
 			"FPI.init.gen.cpp.obj",
@@ -18,6 +19,7 @@
 			"KeyPowerUp.gen.cpp.obj",
 			"MovingPlatform.gen.cpp.obj",
 			"Objectives.gen.cpp.obj",
+			"RotatingPlatform.gen.cpp.obj",
 			"ShooterAIController.gen.cpp.obj",
 			"ShooterBulletCounterUI.gen.cpp.obj",
 			"ShooterCharacter.gen.cpp.obj",
@@ -32,6 +34,7 @@
 			"ShooterWeaponHolder.gen.cpp.obj",
 			"SlidingDoor.gen.cpp.obj",
 			"PerModuleInline.gen.cpp.obj",
+			"Checkpoint.cpp.obj",
 			"DoorButton.cpp.obj",
 			"FPI.cpp.obj",
 			"FPICameraManager.cpp.obj",
@@ -43,6 +46,7 @@
 			"KeyPowerUp.cpp.obj",
 			"MovingPlatform.cpp.obj",
 			"Objectives.cpp.obj",
+			"RotatingPlatform.cpp.obj",
 			"SlidingDoor.cpp.obj",
 			"HorrorCharacter.cpp.obj",
 			"HorrorGameMode.cpp.obj",

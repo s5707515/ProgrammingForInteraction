@@ -45,6 +45,12 @@
     <ClInclude Include="..\..\Source\FPI\DoorButton.h">
       <Filter>Source\FPI</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\FPI\FadingPlatform.cpp">
+      <Filter>Source\FPI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPI\FadingPlatform.h">
+      <Filter>Source\FPI</Filter>
+    </ClInclude>
     <None Include="..\..\Source\FPI\FPI.Build.cs">
       <Filter>Source\FPI</Filter>
     </None>
@@ -106,6 +112,12 @@
       <Filter>Source\FPI</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\FPI\Objectives.h">
+      <Filter>Source\FPI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPI\RotatingPlatform.cpp">
+      <Filter>Source\FPI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPI\RotatingPlatform.h">
       <Filter>Source\FPI</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\FPI\SlidingDoor.cpp">
