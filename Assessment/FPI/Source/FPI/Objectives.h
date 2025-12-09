@@ -10,21 +10,34 @@
 
 #include "Objectives.generated.h"
 
-/**
- * 
- */
+UENUM(BlueprintType)
+enum class EObjectives : uint8
+{
+	OpenDoor1,
+	OpenDoor2,
+	FindCodeForDoor,
+	OpenDoor3,
+	FindAKeyForDoor,
+	BringKey,
+	YouWin,
+};
+
 UCLASS()
 class FPI_API UObjectives : public UUserWidget
 {
 	GENERATED_BODY()
+
+public:
 	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Objectives")
+	EObjectives currentObjective;
 
 	UPROPERTY(meta = (BindWidget))
 	class UMultiLineEditableTextBox* objectivesTXT;
 
 
 	UFUNCTION(BlueprintCallable)
-	void ChangeObjective(int objectiveNum);
+	void ChangeObjective(EObjectives objective);
 
 
 

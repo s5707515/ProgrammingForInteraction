@@ -1,32 +1,56 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-
 #include "Objectives.h"
 
-void UObjectives::ChangeObjective(int objectiveNum)
+void UObjectives::ChangeObjective(EObjectives objective)
 {
-	FString objective = "No Objective ID given";
+	FString newObjective = "No Objective ID given";
 
-	switch (objectiveNum)
+	switch (objective)
 	{
-		case 0:
+		case EObjectives::OpenDoor1:
 
-			objective = "OPEN THE DOOR";
-
-			break;
-
-		case 1:
-
-			objective = "CRACK THE CODE FOR THE KEYPAD";
+			newObjective = "OPEN THE DOOR";
 
 			break;
 
-		case 2:
+		case EObjectives::OpenDoor2:
 
-			objective = "FIND A WAY TO UNLOCK THE DOOR";
+			newObjective = "INSPECT THE KEYPAD TO OPEN DOOR 2";
+
+			break;
+
+		case EObjectives::FindCodeForDoor:
+
+			newObjective = "CRACK THE CODE FOR THE KEYPAD";
+
+			break;
+
+		case EObjectives::OpenDoor3:
+
+			newObjective = "TRY TO OPEN DOOR 3";
+
+			break;
+
+		case EObjectives::FindAKeyForDoor:
+
+			newObjective = "FIND A KEY TO UNLOCK DOOR 3";
+
+			break;
+
+		case EObjectives::BringKey:
+
+			newObjective = "GO BACK AND OPEN DOOR 3";
+
+			break;
+
+
+		case EObjectives::YouWin:
+
+			newObjective = "CONGRATULATIONS! YOU WIN!";
 
 			break;
 	}
 
-	objectivesTXT->SetText(FText::FromString("OBJECTIVE: " + objective));
+	objectivesTXT->SetText(FText::FromString("OBJECTIVE: " + newObjective));
 }

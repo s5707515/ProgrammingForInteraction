@@ -16,14 +16,16 @@
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
+enum class EObjectives : uint8;
+
 // ********** Begin Class UObjectives **************************************************************
-#define FID_FPI_Source_FPI_Objectives_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_FPI_Source_FPI_Objectives_h_28_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execChangeObjective);
 
 
 FPI_API UClass* Z_Construct_UClass_UObjectives_NoRegister();
 
-#define FID_FPI_Source_FPI_Objectives_h_19_INCLASS_NO_PURE_DECLS \
+#define FID_FPI_Source_FPI_Objectives_h_28_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUObjectives(); \
 	friend struct Z_Construct_UClass_UObjectives_Statics; \
@@ -34,7 +36,7 @@ public: \
 	DECLARE_SERIALIZER(UObjectives)
 
 
-#define FID_FPI_Source_FPI_Objectives_h_19_ENHANCED_CONSTRUCTORS \
+#define FID_FPI_Source_FPI_Objectives_h_28_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UObjectives(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	/** Deleted move- and copy-constructors, should never be used */ \
@@ -46,13 +48,13 @@ public: \
 	NO_API virtual ~UObjectives();
 
 
-#define FID_FPI_Source_FPI_Objectives_h_16_PROLOG
-#define FID_FPI_Source_FPI_Objectives_h_19_GENERATED_BODY \
+#define FID_FPI_Source_FPI_Objectives_h_25_PROLOG
+#define FID_FPI_Source_FPI_Objectives_h_28_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_FPI_Source_FPI_Objectives_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_FPI_Source_FPI_Objectives_h_19_INCLASS_NO_PURE_DECLS \
-	FID_FPI_Source_FPI_Objectives_h_19_ENHANCED_CONSTRUCTORS \
+	FID_FPI_Source_FPI_Objectives_h_28_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_FPI_Source_FPI_Objectives_h_28_INCLASS_NO_PURE_DECLS \
+	FID_FPI_Source_FPI_Objectives_h_28_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -63,5 +65,20 @@ class UObjectives;
 
 #undef CURRENT_FILE_ID
 #define CURRENT_FILE_ID FID_FPI_Source_FPI_Objectives_h
+
+// ********** Begin Enum EObjectives ***************************************************************
+#define FOREACH_ENUM_EOBJECTIVES(op) \
+	op(EObjectives::OpenDoor1) \
+	op(EObjectives::OpenDoor2) \
+	op(EObjectives::FindCodeForDoor) \
+	op(EObjectives::OpenDoor3) \
+	op(EObjectives::FindAKeyForDoor) \
+	op(EObjectives::BringKey) \
+	op(EObjectives::YouWin) 
+
+enum class EObjectives : uint8;
+template<> struct TIsUEnumClass<EObjectives> { enum { Value = true }; };
+template<> FPI_API UEnum* StaticEnum<EObjectives>();
+// ********** End Enum EObjectives *****************************************************************
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
