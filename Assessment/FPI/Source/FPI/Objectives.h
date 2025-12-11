@@ -16,9 +16,9 @@ enum class EObjectives : uint8
 	OpenDoor1,
 	OpenDoor2,
 	FindCodeForDoor,
-	OpenDoor3,
+	ReachDoor3,
 	FindAKeyForDoor,
-	BringKey,
+	OpenDoor3,
 	YouWin,
 };
 

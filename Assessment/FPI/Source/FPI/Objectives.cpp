@@ -6,11 +6,13 @@ void UObjectives::ChangeObjective(EObjectives objective)
 {
 	FString newObjective = "No Objective ID given";
 
+	currentObjective = objective;
+
 	switch (objective)
 	{
 		case EObjectives::OpenDoor1:
 
-			newObjective = "OPEN THE DOOR";
+			newObjective = "PRESS THE BUTTON TO OPEN DOOR 1";
 
 			break;
 
@@ -22,13 +24,13 @@ void UObjectives::ChangeObjective(EObjectives objective)
 
 		case EObjectives::FindCodeForDoor:
 
-			newObjective = "CRACK THE CODE FOR THE KEYPAD";
+			newObjective = "FIND THE CODE FOR THE KEYPAD";
 
 			break;
 
-		case EObjectives::OpenDoor3:
+		case EObjectives::ReachDoor3:
 
-			newObjective = "TRY TO OPEN DOOR 3";
+			newObjective = "ATTEMPT TO OPEN DOOR 3";
 
 			break;
 
@@ -38,7 +40,7 @@ void UObjectives::ChangeObjective(EObjectives objective)
 
 			break;
 
-		case EObjectives::BringKey:
+		case EObjectives::OpenDoor3:
 
 			newObjective = "GO BACK AND OPEN DOOR 3";
 
@@ -53,4 +55,5 @@ void UObjectives::ChangeObjective(EObjectives objective)
 	}
 
 	objectivesTXT->SetText(FText::FromString("OBJECTIVE: " + newObjective));
+	
 }

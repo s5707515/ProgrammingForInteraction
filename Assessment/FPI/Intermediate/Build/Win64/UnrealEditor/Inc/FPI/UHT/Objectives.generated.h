@@ -71,9 +71,9 @@ class UObjectives;
 	op(EObjectives::OpenDoor1) \
 	op(EObjectives::OpenDoor2) \
 	op(EObjectives::FindCodeForDoor) \
-	op(EObjectives::OpenDoor3) \
+	op(EObjectives::ReachDoor3) \
 	op(EObjectives::FindAKeyForDoor) \
-	op(EObjectives::BringKey) \
+	op(EObjectives::OpenDoor3) \
 	op(EObjectives::YouWin) 
 
 enum class EObjectives : uint8;

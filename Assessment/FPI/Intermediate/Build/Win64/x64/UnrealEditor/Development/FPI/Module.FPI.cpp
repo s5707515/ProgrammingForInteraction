@@ -17,6 +17,7 @@
 #include "D:/Bournemouth University/Year 2/PFI/ProgrammingForInteraction/Assessment/FPI/Intermediate/Build/Win64/UnrealEditor/Inc/FPI/UHT/KeyPowerUp.gen.cpp"
 #include "D:/Bournemouth University/Year 2/PFI/ProgrammingForInteraction/Assessment/FPI/Intermediate/Build/Win64/UnrealEditor/Inc/FPI/UHT/MovingPlatform.gen.cpp"
 #include "D:/Bournemouth University/Year 2/PFI/ProgrammingForInteraction/Assessment/FPI/Intermediate/Build/Win64/UnrealEditor/Inc/FPI/UHT/Objectives.gen.cpp"
+#include "D:/Bournemouth University/Year 2/PFI/ProgrammingForInteraction/Assessment/FPI/Intermediate/Build/Win64/UnrealEditor/Inc/FPI/UHT/PFI_Lib.gen.cpp"
 #include "D:/Bournemouth University/Year 2/PFI/ProgrammingForInteraction/Assessment/FPI/Intermediate/Build/Win64/UnrealEditor/Inc/FPI/UHT/RotatingPlatform.gen.cpp"
 #include "D:/Bournemouth University/Year 2/PFI/ProgrammingForInteraction/Assessment/FPI/Intermediate/Build/Win64/UnrealEditor/Inc/FPI/UHT/ShooterAIController.gen.cpp"
 #include "D:/Bournemouth University/Year 2/PFI/ProgrammingForInteraction/Assessment/FPI/Intermediate/Build/Win64/UnrealEditor/Inc/FPI/UHT/ShooterBulletCounterUI.gen.cpp"

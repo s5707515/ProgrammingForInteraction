@@ -39,13 +39,13 @@ struct Z_Construct_UEnum_FPI_EObjectives_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
-		{ "BringKey.Name", "EObjectives::BringKey" },
 		{ "FindAKeyForDoor.Name", "EObjectives::FindAKeyForDoor" },
 		{ "FindCodeForDoor.Name", "EObjectives::FindCodeForDoor" },
 		{ "ModuleRelativePath", "Objectives.h" },
 		{ "OpenDoor1.Name", "EObjectives::OpenDoor1" },
 		{ "OpenDoor2.Name", "EObjectives::OpenDoor2" },
 		{ "OpenDoor3.Name", "EObjectives::OpenDoor3" },
+		{ "ReachDoor3.Name", "EObjectives::ReachDoor3" },
 		{ "YouWin.Name", "EObjectives::YouWin" },
 	};
 #endif // WITH_METADATA
@@ -53,9 +53,9 @@ struct Z_Construct_UEnum_FPI_EObjectives_Statics
 		{ "EObjectives::OpenDoor1", (int64)EObjectives::OpenDoor1 },
 		{ "EObjectives::OpenDoor2", (int64)EObjectives::OpenDoor2 },
 		{ "EObjectives::FindCodeForDoor", (int64)EObjectives::FindCodeForDoor },
-		{ "EObjectives::OpenDoor3", (int64)EObjectives::OpenDoor3 },
+		{ "EObjectives::ReachDoor3", (int64)EObjectives::ReachDoor3 },
 		{ "EObjectives::FindAKeyForDoor", (int64)EObjectives::FindAKeyForDoor },
-		{ "EObjectives::BringKey", (int64)EObjectives::BringKey },
+		{ "EObjectives::OpenDoor3", (int64)EObjectives::OpenDoor3 },
 		{ "EObjectives::YouWin", (int64)EObjectives::YouWin },
 	};
 	static const UECodeGen_Private::FEnumParams EnumParams;
@@ -100,7 +100,7 @@ struct Z_Construct_UFunction_UObjectives_ChangeObjective_Statics
 	static const UECodeGen_Private::FFunctionParams FuncParams;
 };
 const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UObjectives_ChangeObjective_Statics::NewProp_objective_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UObjectives_ChangeObjective_Statics::NewProp_objective = { "objective", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(Objectives_eventChangeObjective_Parms, objective), Z_Construct_UEnum_FPI_EObjectives, METADATA_PARAMS(0, nullptr) }; // 3023615346
+const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UObjectives_ChangeObjective_Statics::NewProp_objective = { "objective", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(Objectives_eventChangeObjective_Parms, objective), Z_Construct_UEnum_FPI_EObjectives, METADATA_PARAMS(0, nullptr) }; // 4288086041
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UObjectives_ChangeObjective_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UObjectives_ChangeObjective_Statics::NewProp_objective_Underlying,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UObjectives_ChangeObjective_Statics::NewProp_objective,
@@ -188,7 +188,7 @@ struct Z_Construct_UClass_UObjectives_Statics
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_UObjectives_ChangeObjective, "ChangeObjective" }, // 4042691785
+		{ &Z_Construct_UFunction_UObjectives_ChangeObjective, "ChangeObjective" }, // 1440975005
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -197,7 +197,7 @@ struct Z_Construct_UClass_UObjectives_Statics
 	static const UECodeGen_Private::FClassParams ClassParams;
 };
 const UECodeGen_Private::FBytePropertyParams Z_Construct_UClass_UObjectives_Statics::NewProp_currentObjective_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FEnumPropertyParams Z_Construct_UClass_UObjectives_Statics::NewProp_currentObjective = { "currentObjective", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UObjectives, currentObjective), Z_Construct_UEnum_FPI_EObjectives, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_currentObjective_MetaData), NewProp_currentObjective_MetaData) }; // 3023615346
+const UECodeGen_Private::FEnumPropertyParams Z_Construct_UClass_UObjectives_Statics::NewProp_currentObjective = { "currentObjective", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UObjectives, currentObjective), Z_Construct_UEnum_FPI_EObjectives, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_currentObjective_MetaData), NewProp_currentObjective_MetaData) }; // 4288086041
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UObjectives_Statics::NewProp_objectivesTXT = { "objectivesTXT", nullptr, (EPropertyFlags)0x0010000000080008, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UObjectives, objectivesTXT), Z_Construct_UClass_UMultiLineEditableTextBox_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_objectivesTXT_MetaData), NewProp_objectivesTXT_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UObjectives_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UObjectives_Statics::NewProp_currentObjective_Underlying,
@@ -242,13 +242,13 @@ UObjectives::~UObjectives() {}
 struct Z_CompiledInDeferFile_FID_FPI_Source_FPI_Objectives_h__Script_FPI_Statics
 {
 	static constexpr FEnumRegisterCompiledInInfo EnumInfo[] = {
-		{ EObjectives_StaticEnum, TEXT("EObjectives"), &Z_Registration_Info_UEnum_EObjectives, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3023615346U) },
+		{ EObjectives_StaticEnum, TEXT("EObjectives"), &Z_Registration_Info_UEnum_EObjectives, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 4288086041U) },
 	};
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UObjectives, UObjectives::StaticClass, TEXT("UObjectives"), &Z_Registration_Info_UClass_UObjectives, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UObjectives), 562082911U) },
+		{ Z_Construct_UClass_UObjectives, UObjectives::StaticClass, TEXT("UObjectives"), &Z_Registration_Info_UClass_UObjectives, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UObjectives), 1703119168U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_FPI_Source_FPI_Objectives_h__Script_FPI_782124174(TEXT("/Script/FPI"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_FPI_Source_FPI_Objectives_h__Script_FPI_3566649845(TEXT("/Script/FPI"),
 	Z_CompiledInDeferFile_FID_FPI_Source_FPI_Objectives_h__Script_FPI_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_FPI_Source_FPI_Objectives_h__Script_FPI_Statics::ClassInfo),
 	nullptr, 0,
 	Z_CompiledInDeferFile_FID_FPI_Source_FPI_Objectives_h__Script_FPI_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_FPI_Source_FPI_Objectives_h__Script_FPI_Statics::EnumInfo));
