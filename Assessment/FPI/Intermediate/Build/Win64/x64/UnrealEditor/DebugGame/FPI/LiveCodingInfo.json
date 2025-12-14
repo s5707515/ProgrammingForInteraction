@@ -4,6 +4,7 @@
 		"Module.FPI.cpp.obj": [
 			"Checkpoint.gen.cpp.obj",
 			"DoorButton.gen.cpp.obj",
+			"EndScreenWidget.gen.cpp.obj",
 			"EnvQueryContext_Target.gen.cpp.obj",
 			"FadingPlatform.gen.cpp.obj",
 			"FPI.init.gen.cpp.obj",
@@ -39,6 +40,7 @@
 			"PerModuleInline.gen.cpp.obj",
 			"Checkpoint.cpp.obj",
 			"DoorButton.cpp.obj",
+			"EndScreenWidget.cpp.obj",
 			"FadingPlatform.cpp.obj",
 			"FPI.cpp.obj",
 			"FPICameraManager.cpp.obj",

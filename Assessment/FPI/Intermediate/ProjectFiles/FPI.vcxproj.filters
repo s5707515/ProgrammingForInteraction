@@ -47,6 +47,12 @@
     <ClInclude Include="..\..\Source\FPI\DoorButton.h">
       <Filter>Source\FPI</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\FPI\EndScreenWidget.cpp">
+      <Filter>Source\FPI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPI\EndScreenWidget.h">
+      <Filter>Source\FPI</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\FPI\FadingPlatform.cpp">
       <Filter>Source\FPI</Filter>
     </ClCompile>
