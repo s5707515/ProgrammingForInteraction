@@ -1,4 +1,4 @@
 # ProgrammingForInteraction
 Repository for all Programming For Interaction class projects
 
-Open using Unreal Engine 5.
+Open Assesment -> FPI -> FPI.uproject using Unreal Engine 5.
